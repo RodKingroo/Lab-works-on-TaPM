@@ -19,6 +19,8 @@ Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "ClassesPython", "ClassesPyt
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ConstructAndDestructCPP", "ConstructAndDestructCPP\ConstructAndDestructCPP.vcxproj", "{C1D29949-57F2-4471-9386-8FB8FB7DA03B}"
 EndProject
+Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "ConstructAndDestructPython", "ConstructAndDestructPython\ConstructAndDestructPython.pyproj", "{CB1A74D9-1A35-415A-865D-918C2AE1AB5D}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -95,6 +97,12 @@ Global
 		{C1D29949-57F2-4471-9386-8FB8FB7DA03B}.Release|x64.Build.0 = Release|x64
 		{C1D29949-57F2-4471-9386-8FB8FB7DA03B}.Release|x86.ActiveCfg = Release|Win32
 		{C1D29949-57F2-4471-9386-8FB8FB7DA03B}.Release|x86.Build.0 = Release|Win32
+		{CB1A74D9-1A35-415A-865D-918C2AE1AB5D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CB1A74D9-1A35-415A-865D-918C2AE1AB5D}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{CB1A74D9-1A35-415A-865D-918C2AE1AB5D}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{CB1A74D9-1A35-415A-865D-918C2AE1AB5D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CB1A74D9-1A35-415A-865D-918C2AE1AB5D}.Release|x64.ActiveCfg = Release|Any CPU
+		{CB1A74D9-1A35-415A-865D-918C2AE1AB5D}.Release|x86.ActiveCfg = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -107,6 +115,7 @@ Global
 		{1A831D77-290E-407F-A0C7-3247EC5332F1} = {AB3AF8FA-0526-45D7-9AEA-4D77F3D1E14D}
 		{9B024940-4695-4FB6-946A-551703A33EA1} = {AB3AF8FA-0526-45D7-9AEA-4D77F3D1E14D}
 		{C1D29949-57F2-4471-9386-8FB8FB7DA03B} = {AB3AF8FA-0526-45D7-9AEA-4D77F3D1E14D}
+		{CB1A74D9-1A35-415A-865D-918C2AE1AB5D} = {AB3AF8FA-0526-45D7-9AEA-4D77F3D1E14D}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {A46EA54D-802A-436E-A651-8DC37E4DCC7E}
