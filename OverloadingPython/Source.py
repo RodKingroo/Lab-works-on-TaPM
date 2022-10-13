@@ -1,3 +1,5 @@
+#Copyright (c) 2021 RodKingroo
+
 from BitString import MyBitString
 import sys
 

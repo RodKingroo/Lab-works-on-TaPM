@@ -1,3 +1,5 @@
+#Copyright (c) 2021 RodKingroo
+
 class MyBitString:
 
 	def mas_from_string(self, st):
