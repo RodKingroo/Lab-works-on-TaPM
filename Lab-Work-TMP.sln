@@ -41,6 +41,8 @@ Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "InterfacesPython", "Interfa
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "CalculatorCPP", "CalculatorCPP\CalculatorCPP.vcxproj", "{626AA771-4433-482F-95DA-1C4616A6547B}"
 EndProject
+Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "CalculatorPython", "CalculatorPython\CalculatorPython.pyproj", "{BF0E2A87-7B6D-4603-A38C-9D645831D687}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -207,6 +209,12 @@ Global
 		{626AA771-4433-482F-95DA-1C4616A6547B}.Release|x64.Build.0 = Release|x64
 		{626AA771-4433-482F-95DA-1C4616A6547B}.Release|x86.ActiveCfg = Release|Win32
 		{626AA771-4433-482F-95DA-1C4616A6547B}.Release|x86.Build.0 = Release|Win32
+		{BF0E2A87-7B6D-4603-A38C-9D645831D687}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BF0E2A87-7B6D-4603-A38C-9D645831D687}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{BF0E2A87-7B6D-4603-A38C-9D645831D687}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{BF0E2A87-7B6D-4603-A38C-9D645831D687}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BF0E2A87-7B6D-4603-A38C-9D645831D687}.Release|x64.ActiveCfg = Release|Any CPU
+		{BF0E2A87-7B6D-4603-A38C-9D645831D687}.Release|x86.ActiveCfg = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -229,6 +237,7 @@ Global
 		{CE493B00-9419-4AE5-81FC-9F70E9CF17AE} = {EED1BFD7-09B6-4BCC-B5C3-3F9F924560AC}
 		{0FC1B83F-ADFD-4334-B5C2-B8D800EECED5} = {EED1BFD7-09B6-4BCC-B5C3-3F9F924560AC}
 		{626AA771-4433-482F-95DA-1C4616A6547B} = {EED1BFD7-09B6-4BCC-B5C3-3F9F924560AC}
+		{BF0E2A87-7B6D-4603-A38C-9D645831D687} = {EED1BFD7-09B6-4BCC-B5C3-3F9F924560AC}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {A46EA54D-802A-436E-A651-8DC37E4DCC7E}
