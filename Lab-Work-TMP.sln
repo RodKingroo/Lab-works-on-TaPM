@@ -15,6 +15,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1st_semester", "1st_semeste
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ClassesCPP", "ClassesCPP\ClassesCPP.vcxproj", "{1A831D77-290E-407F-A0C7-3247EC5332F1}"
 EndProject
+Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "ClassesPython", "ClassesPython\ClassesPython.pyproj", "{9B024940-4695-4FB6-946A-551703A33EA1}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -73,6 +75,12 @@ Global
 		{1A831D77-290E-407F-A0C7-3247EC5332F1}.Release|x64.Build.0 = Release|x64
 		{1A831D77-290E-407F-A0C7-3247EC5332F1}.Release|x86.ActiveCfg = Release|Win32
 		{1A831D77-290E-407F-A0C7-3247EC5332F1}.Release|x86.Build.0 = Release|Win32
+		{9B024940-4695-4FB6-946A-551703A33EA1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9B024940-4695-4FB6-946A-551703A33EA1}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{9B024940-4695-4FB6-946A-551703A33EA1}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{9B024940-4695-4FB6-946A-551703A33EA1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9B024940-4695-4FB6-946A-551703A33EA1}.Release|x64.ActiveCfg = Release|Any CPU
+		{9B024940-4695-4FB6-946A-551703A33EA1}.Release|x86.ActiveCfg = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -83,6 +91,7 @@ Global
 		{6417BD23-F6BB-4192-B774-5BDA779505DD} = {AB3AF8FA-0526-45D7-9AEA-4D77F3D1E14D}
 		{E4386CF5-5330-47F2-AF8B-BD440B6F5B58} = {AB3AF8FA-0526-45D7-9AEA-4D77F3D1E14D}
 		{1A831D77-290E-407F-A0C7-3247EC5332F1} = {AB3AF8FA-0526-45D7-9AEA-4D77F3D1E14D}
+		{9B024940-4695-4FB6-946A-551703A33EA1} = {AB3AF8FA-0526-45D7-9AEA-4D77F3D1E14D}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {A46EA54D-802A-436E-A651-8DC37E4DCC7E}

@@ -1,6 +1,6 @@
 //Copyright (c) 2021 RodKingroo
 
-#include "BigString.h"
+#include "BitString.h"
 #include <iostream>
 
 using namespace std;
