@@ -47,6 +47,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "3th_semester", "3th_semeste
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ObserverCPP", "ObserverCPP\ObserverCPP.vcxproj", "{90E425FA-E6BC-4CE1-9E12-746177CF13BA}"
 EndProject
+Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "ObserverPython", "ObserverPython\ObserverPython.pyproj", "{D10E3B0E-60BB-4908-9EA5-C20733140BE5}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -231,6 +233,12 @@ Global
 		{90E425FA-E6BC-4CE1-9E12-746177CF13BA}.Release|x64.Build.0 = Release|x64
 		{90E425FA-E6BC-4CE1-9E12-746177CF13BA}.Release|x86.ActiveCfg = Release|Win32
 		{90E425FA-E6BC-4CE1-9E12-746177CF13BA}.Release|x86.Build.0 = Release|Win32
+		{D10E3B0E-60BB-4908-9EA5-C20733140BE5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D10E3B0E-60BB-4908-9EA5-C20733140BE5}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{D10E3B0E-60BB-4908-9EA5-C20733140BE5}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{D10E3B0E-60BB-4908-9EA5-C20733140BE5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D10E3B0E-60BB-4908-9EA5-C20733140BE5}.Release|x64.ActiveCfg = Release|Any CPU
+		{D10E3B0E-60BB-4908-9EA5-C20733140BE5}.Release|x86.ActiveCfg = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -255,6 +263,7 @@ Global
 		{626AA771-4433-482F-95DA-1C4616A6547B} = {EED1BFD7-09B6-4BCC-B5C3-3F9F924560AC}
 		{BF0E2A87-7B6D-4603-A38C-9D645831D687} = {EED1BFD7-09B6-4BCC-B5C3-3F9F924560AC}
 		{90E425FA-E6BC-4CE1-9E12-746177CF13BA} = {736569FC-0A45-4262-8984-EC19836A6757}
+		{D10E3B0E-60BB-4908-9EA5-C20733140BE5} = {736569FC-0A45-4262-8984-EC19836A6757}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {A46EA54D-802A-436E-A651-8DC37E4DCC7E}
