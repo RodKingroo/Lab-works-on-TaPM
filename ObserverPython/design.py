@@ -1,3 +1,4 @@
+# Copyright (c) 2022 RodKingroo
 # -*- coding: utf-8 -*-
 
 # Form implementation generated from reading ui file 'mainwindow.ui'

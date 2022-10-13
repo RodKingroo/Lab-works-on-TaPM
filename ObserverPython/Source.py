@@ -1,3 +1,5 @@
+# Copyright (c) 2022 RodKingroo
+
 from abc import ABC, abstractmethod
 from design import Ui_MainWindow
 import requests

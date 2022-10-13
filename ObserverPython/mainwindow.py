@@ -1,3 +1,5 @@
+# Copyright (c) 2022 RodKingroo
+
 import sys
 from Source import *
 from PyQt5 import QtWidgets
