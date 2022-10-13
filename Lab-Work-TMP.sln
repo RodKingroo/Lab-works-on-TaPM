@@ -21,6 +21,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ConstructAndDestructCPP", "
 EndProject
 Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "ConstructAndDestructPython", "ConstructAndDestructPython\ConstructAndDestructPython.pyproj", "{CB1A74D9-1A35-415A-865D-918C2AE1AB5D}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "OverloadingCPP", "OverloadingCPP\OverloadingCPP.vcxproj", "{A6BEB07C-F50C-4E37-9FEC-A324485CF770}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -103,6 +105,18 @@ Global
 		{CB1A74D9-1A35-415A-865D-918C2AE1AB5D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{CB1A74D9-1A35-415A-865D-918C2AE1AB5D}.Release|x64.ActiveCfg = Release|Any CPU
 		{CB1A74D9-1A35-415A-865D-918C2AE1AB5D}.Release|x86.ActiveCfg = Release|Any CPU
+		{A6BEB07C-F50C-4E37-9FEC-A324485CF770}.Debug|Any CPU.ActiveCfg = Debug|x64
+		{A6BEB07C-F50C-4E37-9FEC-A324485CF770}.Debug|Any CPU.Build.0 = Debug|x64
+		{A6BEB07C-F50C-4E37-9FEC-A324485CF770}.Debug|x64.ActiveCfg = Debug|x64
+		{A6BEB07C-F50C-4E37-9FEC-A324485CF770}.Debug|x64.Build.0 = Debug|x64
+		{A6BEB07C-F50C-4E37-9FEC-A324485CF770}.Debug|x86.ActiveCfg = Debug|Win32
+		{A6BEB07C-F50C-4E37-9FEC-A324485CF770}.Debug|x86.Build.0 = Debug|Win32
+		{A6BEB07C-F50C-4E37-9FEC-A324485CF770}.Release|Any CPU.ActiveCfg = Release|x64
+		{A6BEB07C-F50C-4E37-9FEC-A324485CF770}.Release|Any CPU.Build.0 = Release|x64
+		{A6BEB07C-F50C-4E37-9FEC-A324485CF770}.Release|x64.ActiveCfg = Release|x64
+		{A6BEB07C-F50C-4E37-9FEC-A324485CF770}.Release|x64.Build.0 = Release|x64
+		{A6BEB07C-F50C-4E37-9FEC-A324485CF770}.Release|x86.ActiveCfg = Release|Win32
+		{A6BEB07C-F50C-4E37-9FEC-A324485CF770}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -116,6 +130,7 @@ Global
 		{9B024940-4695-4FB6-946A-551703A33EA1} = {AB3AF8FA-0526-45D7-9AEA-4D77F3D1E14D}
 		{C1D29949-57F2-4471-9386-8FB8FB7DA03B} = {AB3AF8FA-0526-45D7-9AEA-4D77F3D1E14D}
 		{CB1A74D9-1A35-415A-865D-918C2AE1AB5D} = {AB3AF8FA-0526-45D7-9AEA-4D77F3D1E14D}
+		{A6BEB07C-F50C-4E37-9FEC-A324485CF770} = {AB3AF8FA-0526-45D7-9AEA-4D77F3D1E14D}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {A46EA54D-802A-436E-A651-8DC37E4DCC7E}
