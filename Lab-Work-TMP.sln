@@ -27,6 +27,8 @@ Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "OverloadingPython", "Overlo
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ExceptionsCPP", "ExceptionsCPP\ExceptionsCPP.vcxproj", "{9195D260-DBA0-4875-B7A2-2EF384A8FA42}"
 EndProject
+Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "ExceptionsPython", "ExceptionsPython\ExceptionsPython.pyproj", "{EA781BA9-171E-43E1-91D1-D91776B95564}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -139,6 +141,12 @@ Global
 		{9195D260-DBA0-4875-B7A2-2EF384A8FA42}.Release|x64.Build.0 = Release|x64
 		{9195D260-DBA0-4875-B7A2-2EF384A8FA42}.Release|x86.ActiveCfg = Release|Win32
 		{9195D260-DBA0-4875-B7A2-2EF384A8FA42}.Release|x86.Build.0 = Release|Win32
+		{EA781BA9-171E-43E1-91D1-D91776B95564}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EA781BA9-171E-43E1-91D1-D91776B95564}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{EA781BA9-171E-43E1-91D1-D91776B95564}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{EA781BA9-171E-43E1-91D1-D91776B95564}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EA781BA9-171E-43E1-91D1-D91776B95564}.Release|x64.ActiveCfg = Release|Any CPU
+		{EA781BA9-171E-43E1-91D1-D91776B95564}.Release|x86.ActiveCfg = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -155,6 +163,7 @@ Global
 		{A6BEB07C-F50C-4E37-9FEC-A324485CF770} = {AB3AF8FA-0526-45D7-9AEA-4D77F3D1E14D}
 		{0A591D1B-9285-4D51-8C41-6190F0AB09E6} = {AB3AF8FA-0526-45D7-9AEA-4D77F3D1E14D}
 		{9195D260-DBA0-4875-B7A2-2EF384A8FA42} = {AB3AF8FA-0526-45D7-9AEA-4D77F3D1E14D}
+		{EA781BA9-171E-43E1-91D1-D91776B95564} = {AB3AF8FA-0526-45D7-9AEA-4D77F3D1E14D}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {A46EA54D-802A-436E-A651-8DC37E4DCC7E}
