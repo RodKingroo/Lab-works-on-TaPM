@@ -33,6 +33,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2nd_semester", "2nd_semeste
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "InheritanceCPP", "InheritanceCPP\InheritanceCPP.vcxproj", "{1A046D2D-0198-4564-B27B-7B95E073795D}"
 EndProject
+Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "InheritancePython", "InheritancePython\InheritancePython.pyproj", "{198D2A7A-0765-4AB0-B74B-67B3CB9AF316}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -163,6 +165,12 @@ Global
 		{1A046D2D-0198-4564-B27B-7B95E073795D}.Release|x64.Build.0 = Release|x64
 		{1A046D2D-0198-4564-B27B-7B95E073795D}.Release|x86.ActiveCfg = Release|Win32
 		{1A046D2D-0198-4564-B27B-7B95E073795D}.Release|x86.Build.0 = Release|Win32
+		{198D2A7A-0765-4AB0-B74B-67B3CB9AF316}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{198D2A7A-0765-4AB0-B74B-67B3CB9AF316}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{198D2A7A-0765-4AB0-B74B-67B3CB9AF316}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{198D2A7A-0765-4AB0-B74B-67B3CB9AF316}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{198D2A7A-0765-4AB0-B74B-67B3CB9AF316}.Release|x64.ActiveCfg = Release|Any CPU
+		{198D2A7A-0765-4AB0-B74B-67B3CB9AF316}.Release|x86.ActiveCfg = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -181,6 +189,7 @@ Global
 		{9195D260-DBA0-4875-B7A2-2EF384A8FA42} = {AB3AF8FA-0526-45D7-9AEA-4D77F3D1E14D}
 		{EA781BA9-171E-43E1-91D1-D91776B95564} = {AB3AF8FA-0526-45D7-9AEA-4D77F3D1E14D}
 		{1A046D2D-0198-4564-B27B-7B95E073795D} = {EED1BFD7-09B6-4BCC-B5C3-3F9F924560AC}
+		{198D2A7A-0765-4AB0-B74B-67B3CB9AF316} = {EED1BFD7-09B6-4BCC-B5C3-3F9F924560AC}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {A46EA54D-802A-436E-A651-8DC37E4DCC7E}
