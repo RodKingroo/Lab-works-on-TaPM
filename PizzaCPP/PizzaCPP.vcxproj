@@ -19,17 +19,15 @@
     </ProjectConfiguration>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="enums_class.cpp" />
     <ClCompile Include="Source.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="enums_class.h" />
-    <ClInclude Include="Source.h" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>
     <Keyword>Win32Proj</Keyword>
-    <ProjectGuid>{e0e42ec6-ad2b-439b-8473-f0670ebd8e93}</ProjectGuid>
+    <ProjectGuid>{9da26f85-1916-4dfd-873f-12411bd0b699}</ProjectGuid>
     <RootNamespace>PizzaCPP</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
   </PropertyGroup>

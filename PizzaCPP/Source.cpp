@@ -1,6 +1,5 @@
 // Copyright (c) 2022 RodKingroo
 
-#include "Source.h"
 #include "enums_class.h"
 
 #include <iostream>
@@ -8,7 +7,7 @@
 
 class Pizza
 {
-public: 
+public:
 	PizzaName pn;	std::string name;
 	Dough d;		std::string dough;
 	Sauce s;		std::string sauce;
@@ -18,11 +17,11 @@ public:
 
 	void prepare()
 	{
-		std::cout << "Preparing: " << name << std::endl;
-		std::cout << "Tossing: " << dough << std::endl;
-		std::cout << "Adding sauce: " << sauce << std::endl;
-		std::cout << "Adding toppings: " << std::endl;
-		for (auto t : toppings) std::cout << "\t - " << t << std::endl;
+		std::cout << name << " is being prepared" << std::endl;
+		std::cout << dough << " is made" << std::endl;
+		if (sauce != "None") std::cout << sauce << " is added" << std::endl;
+		else if (sauce == "None");
+		for (auto t : toppings) std::cout << "Adding " << t << std::endl;
 
 	}
 
@@ -83,9 +82,44 @@ public:
 
 };
 
-class ClamPizza : public Pizza {
+class ChorizoPizza :public Pizza 
+{
 public:
-	ClamPizza() 
+	ChorizoPizza()
+	{
+		name = pn.Chorizo;
+		dough = d.Thin;
+		sauce = s.Tomat;
+		time = t.fast;
+		degree = dgr.Five_hundred;
+		toppings.push_back(i.mozarella);
+		toppings.push_back(i.red);
+		toppings.push_back(i.chorizo);
+	}
+};
+
+class CarbonaraPizza :public Pizza 
+{
+public:
+	CarbonaraPizza() 
+	{
+		name = pn.Carbonara;
+		dough = d.Basic;
+		sauce = s.Alfredo;
+		time = t.medium;
+		degree = dgr.Five_hundred;
+		toppings.push_back(i.cheder);
+		toppings.push_back(i.parmezan);
+		toppings.push_back(i.tomato);
+		toppings.push_back(i.mozarella);
+
+	}
+};
+
+class ClamPizza : public Pizza 
+{
+public:
+	ClamPizza()
 	{
 		name = pn.Clam;
 		dough = d.Basic;
@@ -100,10 +134,10 @@ public:
 	}
 };
 
-class VigglePizza : public Pizza 
+class VigglePizza : public Pizza
 {
 public:
-	VigglePizza() 
+	VigglePizza()
 	{
 		name = pn.Viggle;
 		dough = d.Basic;
@@ -140,11 +174,17 @@ public:
 		case viggle:
 			pizza = new VigglePizza();
 			break;
+		case carbonara:
+			pizza = new CarbonaraPizza();
+			break;
+		case chorizo:
+			pizza = new ChorizoPizza();
+			break;
 		default:
 			return pizza;
 			break;
 		}
-		
+
 
 	}
 
@@ -177,7 +217,7 @@ int main()
 {
 	SimplePizzaFactory pizzaFactory;
 	PizzaStore pizzaStore(pizzaFactory);
-	Pizza* p = pizzaStore.orderPizza(clam);
+	Pizza* p = pizzaStore.orderPizza(chorizo);
 	std::cout << "Your pizza: " << p->getName() << std::endl;
 	delete p;
 	return 0;

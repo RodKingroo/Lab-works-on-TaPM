@@ -7,7 +7,9 @@ enum PizzaEnum
     cheese = 0,
     pepperoni = 1,
     clam = 2,
-    viggle = 3
+    viggle = 3,
+    chorizo = 5,
+    carbonara = 6
 
 };
 
@@ -16,6 +18,7 @@ class Ingredients
 public:
     std::string mozarella = "Mozzarela cheese";
     std::string parmezan = "Parmesan cheese";
+    std::string cheder = "Cheder cheese";
     std::string romano = "Romano cheese";
     std::string pepperoni = "Pepperoni slices";
     std::string red = "Red pepper";
@@ -23,6 +26,7 @@ public:
     std::string spinate = "Baby spinach";
     std::string egg = "Egg";
     std::string tomato = "Tomatoes";
+    std::string chorizo = "Hot Chorizo";
 
 };
 
@@ -33,6 +37,8 @@ public:
     std::string Pepperoni = "Pepperoni Pizza";
     std::string Clam = "Clam Pizza";
     std::string Viggle = "Viggle Pizza";
+    std::string Chorizo = "Chorizo Pizza";
+    std::string Carbonara = "Carbonara Pizza";
 
 };
 
@@ -51,6 +57,7 @@ public:
     std::string Lemon = "Lemon";
     std::string Fat = "Fat-free sauce";
     std::string Tomat = "Tomato-and-basis pasta sauce";
+    std::string Alfredo = "Special Sauce Alfredo";
 
 };
 
