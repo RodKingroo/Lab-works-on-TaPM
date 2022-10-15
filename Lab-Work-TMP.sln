@@ -55,6 +55,8 @@ Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "PizzaMaker", "PizzaPython\P
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "FactoryMethodCPP", "FactoryMethodCPP\FactoryMethodCPP.vcxproj", "{1428F5B3-8651-478C-803F-DC1AB8D066C6}"
 EndProject
+Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "FactoryMethodPython", "FactoryMethodPython\FactoryMethodPython.pyproj", "{7E19BC12-7298-4FEB-8CE1-E045FFC39CE7}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -275,6 +277,12 @@ Global
 		{1428F5B3-8651-478C-803F-DC1AB8D066C6}.Release|x64.Build.0 = Release|x64
 		{1428F5B3-8651-478C-803F-DC1AB8D066C6}.Release|x86.ActiveCfg = Release|Win32
 		{1428F5B3-8651-478C-803F-DC1AB8D066C6}.Release|x86.Build.0 = Release|Win32
+		{7E19BC12-7298-4FEB-8CE1-E045FFC39CE7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7E19BC12-7298-4FEB-8CE1-E045FFC39CE7}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{7E19BC12-7298-4FEB-8CE1-E045FFC39CE7}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{7E19BC12-7298-4FEB-8CE1-E045FFC39CE7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7E19BC12-7298-4FEB-8CE1-E045FFC39CE7}.Release|x64.ActiveCfg = Release|Any CPU
+		{7E19BC12-7298-4FEB-8CE1-E045FFC39CE7}.Release|x86.ActiveCfg = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -303,6 +311,7 @@ Global
 		{9DA26F85-1916-4DFD-873F-12411BD0B699} = {736569FC-0A45-4262-8984-EC19836A6757}
 		{34C33CDF-09D4-4A50-BFA6-8D0659F9500E} = {736569FC-0A45-4262-8984-EC19836A6757}
 		{1428F5B3-8651-478C-803F-DC1AB8D066C6} = {736569FC-0A45-4262-8984-EC19836A6757}
+		{7E19BC12-7298-4FEB-8CE1-E045FFC39CE7} = {736569FC-0A45-4262-8984-EC19836A6757}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {A46EA54D-802A-436E-A651-8DC37E4DCC7E}
