@@ -24,7 +24,6 @@
     <Compile Include="Design.py" />
     <Compile Include="enums_class.py" />
     <Compile Include="Source.py" />
-    <Compile Include="UnitTest.py" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />
   <!-- Uncomment the CoreCompile target to enable the Build command in
