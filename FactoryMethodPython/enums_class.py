@@ -9,13 +9,16 @@ class PizzaEnum (enum.Enum):
     chorizo = "5"
     carbonara = "6"
 
-class IngredientsEnum:
+class Ingredients:
     Reggiano = "Reggiano Cheese"
     Mozarella = "Mozzarela Cheese"
     Parmezan = "Parmesan cheese"
     Cheder = "Cheder cheese"
     Romano = "Romano cheese"
+    Adyghe = "Adyghe cheese"
+    Dutch = "Dutch cheese"
     Pepperoni = "Pepperoni slices"
+    Salami = "Salami"
     Red_Pepper = "Red pepper"
     Clams = "Chopper raw clams"
     Spinate = "Baby spinach"
@@ -23,7 +26,7 @@ class IngredientsEnum:
     Tomato = "Tomatoes"
     Chorizo = "Hot chorizo"
 
-class NYPizzaNameEnum:
+class NYPizzaName:
     Cheese = "NY Style Cheese Pizza"
     Pepperoni = "NY Style Pepperoni Pizza"
     Clam = "NY Style Clam Pizza"
@@ -31,7 +34,7 @@ class NYPizzaNameEnum:
     Chorizo = "NY Style Chorizo Pizza"
     Carbonara = "NY Style Carbonara Pizza"
 
-class ChicagoPizzaNameEnum:
+class ChicagoPizzaName:
     Cheese = "Chicago Style Cheese Pizza"
     Pepperoni = "Chicago Style Pepperoni Pizza"
     Clam = "Chicago Style Clam Pizza"
@@ -40,7 +43,7 @@ class ChicagoPizzaNameEnum:
     Carbonara = "Chicago Style Carbonara Pizza"
 
 
-class DoughEnum:
+class Dough:
     Super_Thin = "Super Thin crust dough"
     Thin = "Thin crust dough"
     Basic = "Dough of standard thickness"
@@ -48,19 +51,25 @@ class DoughEnum:
     Extra_Thick = "Extra Thick Crust Dough"
 
 
-class SauceEnum:
+class Sauce:
     NoneSauce = "None"
     Marinara = "Marinara sauce"
-    Tomato = "Plum Tomato Sauce"
-    
+    Tomato = "Tomato Sauce"
+    Vegetarian = "Vegetarian sauce"
+    Fat = "Fat-free sauce"
+    Alfredo = "Special Sauce Algredo"
+    Lemon = "Lemon Sauce"
+    Milk = "Milk Sauce"
+    Garlic = "Garlic sauce"
 
-class TimeEnum:
-    fast = "8 minute"
-    medium = "11 minute"
-    slow = "20 minute"
-    very_slow = "25 minute"
+class Time:
+    Very_Fast = "5 minute"
+    Fast = "10 minute"
+    Medium = "15 minute"
+    Slow = "20 minute"
+    Very_Slow = "25 minute"
 
-class DegreeEnum:
-    Five_hundred = "500 deegree"
-    Four_plusHalf_hundred = "450 deegree"
-    Three_Seventeen_five_Hunded = "375 deegree"
+class Degree:
+    Strong_Fire = "500 deegree"
+    Medium_Fire = "400 deegree"
+    Low_Fire = "300 deegree"
