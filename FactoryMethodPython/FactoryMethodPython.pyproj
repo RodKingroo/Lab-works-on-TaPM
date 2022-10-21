@@ -22,7 +22,23 @@
     <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
   </PropertyGroup>
   <ItemGroup>
+    <Compile Include="ChicagoPizzaStore.py" />
+    <Compile Include="ChicagoStyleCarbonaraPizza.py" />
+    <Compile Include="ChicagoStyleCheesePizza.py" />
+    <Compile Include="ChicagoStyleChorizoPizza.py" />
+    <Compile Include="ChicagoStyleClamPizza.py" />
+    <Compile Include="ChicagoStylePepperoniPizza.py" />
+    <Compile Include="ChicagoStyleViggiePizza.py" />
     <Compile Include="enums_class.py" />
+    <Compile Include="NYPizzaStore.py" />
+    <Compile Include="NYStyleCarbonaraPizza.py" />
+    <Compile Include="NYStyleCheesePizza.py" />
+    <Compile Include="NYStyleChorizoPizza.py" />
+    <Compile Include="NYStyleClamPizza.py" />
+    <Compile Include="NYStylePepperoniPizza.py" />
+    <Compile Include="NYStyleViggiePizza.py" />
+    <Compile Include="Pizza.py" />
+    <Compile Include="PizzaStore.py" />
     <Compile Include="Source.py" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />
