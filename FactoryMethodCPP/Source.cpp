@@ -1,20 +1,26 @@
+#include "enums_class.h"
+
 #include <iostream>
 #include <list>
 
 class Pizza 
 {
 protected:
-	std::string name;
-	std::string dough;
-	std::string sauce;
-	std::list<std::string> toppings;
+	NYPizzaName _nyPizzaName;
+	ChicagoPizzaName _chicagoPizzaName; std::string name;
+	Dough _dough;						std::string dough;
+	Sauce _sauce;						std::string sauce;
+	Time _time;							std::string time;
+	Deegree _degree;					std::string degree;
+	Ingredients _ingredients;			std::list<std::string> toppings;
 
 public:
 	virtual void prepare() 
 	{
-		std::cout << "Preparing " << name << std::endl;
-		std::cout << "Tossing " << dough << "..." << std::endl;
-		std::cout << "Adding " << sauce << "..." << std::endl;
+		std::cout << name << " is being prepared" << std::endl;
+		std::cout << dough << " is made" << std::endl;
+		if (sauce != "None") std::cout << sauce << " is added" << std::endl;
+		else if (sauce == "None");
 		std::cout << "Adding toppings: " << std::endl;
 		for (auto t : toppings) std::cout << "\t -" << "t" << std::endl;
 
@@ -22,7 +28,7 @@ public:
 
 	virtual void bake() 
 	{
-		std::cout << "Bake for 25 min at 350 deegree" << std::endl;
+		std::cout << "Bake for " << time << " at "<< degree <<" deegree" << std::endl;
 	}
 
 	virtual void cut() 
@@ -45,7 +51,7 @@ class NYStyleCheesePizza : public Pizza
 public:
 	NYStyleCheesePizza() 
 	{
-		name = "NY Style Sauce and Cheese Pizza";
+		name = _nyPizzaName.Cheese;
 		dough = "Thin Crust Dough";
 		sauce = "Marinara Sauce";
 		toppings.push_back("Grated Reggiano Cheese");
