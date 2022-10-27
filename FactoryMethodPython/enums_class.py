@@ -1,13 +1,16 @@
 # Copyright (c) 2022 RodKingroo
-import enum
 
-class PizzaEnum (enum.Enum):
-    cheese = "1"
-    pepperoni = "2"
-    clam = "3"
-    viggie = "4"
-    chorizo = "5"
-    carbonara = "6"
+class StyleEnum:
+    NewYork = 1
+    Chicago = 2
+
+class PizzaEnum:
+    cheese = 1
+    pepperoni = 2
+    clam = 3
+    viggie = 4
+    chorizo = 5
+    carbonara = 6
 
 class Ingredients:
     Reggiano = "Reggiano Cheese"
@@ -25,6 +28,18 @@ class Ingredients:
     Egg = "Egg"
     Tomato = "Tomatoes"
     Chorizo = "Hot chorizo"
+
+class ComboBoxStyleName:
+    NewYork = "New York"
+    Chicago = "Chicago"
+
+class ComboBoxPizzaName:
+    cheese = "Cheese Pizza"
+    pepperoni = "Pepperoni Pizza"
+    clam = "Clam Pizza"
+    viggie = "Viggie Pizza"
+    chorizo = "Chorizo Pizza"
+    carbonara = "Carbonara Pizza"
 
 class NYPizzaName:
     Cheese = "NY Style Cheese Pizza"

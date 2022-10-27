@@ -29,6 +29,7 @@
     <Compile Include="ChicagoStyleClamPizza.py" />
     <Compile Include="ChicagoStylePepperoniPizza.py" />
     <Compile Include="ChicagoStyleViggiePizza.py" />
+    <Compile Include="Design.py" />
     <Compile Include="enums_class.py" />
     <Compile Include="NYPizzaStore.py" />
     <Compile Include="NYStyleCarbonaraPizza.py" />

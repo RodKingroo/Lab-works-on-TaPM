@@ -11,7 +11,7 @@ class NYStyleViggiePizza(Pizza):
         self.sauce = Sauce.NoneSauce
         self.degree = Degree.Medium_Fire
         self.time = Time.Very_Slow
-        self.toppings.extend((Ingredients.Parmezan, Ingredients.Tomato, Ingredients.Egg, Ingredients.Red, Ingredients.Spinate))
+        self.toppings.extend((Ingredients.Parmezan, Ingredients.Tomato, Ingredients.Egg, Ingredients.Red_Pepper, Ingredients.Spinate))
 
     def box(self):
         print("Wrap in foil")
