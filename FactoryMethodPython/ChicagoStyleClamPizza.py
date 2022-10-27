@@ -6,7 +6,7 @@ from enums_class import *
 class ChicagoStyleClamPizza(Pizza):
     def __init__(self):
         super().__init__()
-        self.name = NYPizzaName.Clam
+        self.name = ChicagoPizzaName.Clam
         self.dough = Dough.Basic
         self.sauce = Sauce.Lemon
         self.degree = Degree.Medium_Fire

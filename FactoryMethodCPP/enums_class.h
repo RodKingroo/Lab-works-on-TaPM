@@ -2,6 +2,13 @@
 
 #include <iostream>
 
+enum Style
+{
+    NewYork = 0,
+    Chicago = 1,
+
+};
+
 enum PizzaEnum
 {
     cheese = 0,

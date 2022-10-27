@@ -7,7 +7,7 @@ class ChicagoStylePepperoniPizza(Pizza):
     def __init__(self):
         super().__init__()
         self.name = ChicagoPizzaName.Pepperoni
-        self.dough = Dough.Very_Thin
+        self.dough = Dough.Super_Thin
         self.sauce = Sauce.Tomato
         self.degree = Degree.Medium_Fire
         self.time = Time.Fast
