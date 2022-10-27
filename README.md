@@ -18,6 +18,7 @@
 - [3 семестр](#3-семестр)
    - [Observer](#Observer)
    - [Simple Factory](#Simple-Factory)
+   - [Factory Method](#Factory-Method)
 
 ------
 ## 1 Семестр
@@ -146,8 +147,17 @@
 #### Simple Factory
 Разработайте программу по управлению пиццерией на языке C++/Python, согласно диаграмме, приведенной в [презентации](https://docs.google.com/presentation/d/1zwbkDw3UY-nLQTUQBQyqr5TfLXpp3VO7lP-jkNFPV2w/edit#slide=id.ge9f3f1777c_0_21).
 
-[Реализация программы на C++ [- / 100]](https://github.com/RodKingroo/Lab-works-on-TaPM/tree/master/PizzaCPP)\
-[Реализация программы на Python [- / 100]](https://github.com/RodKingroo/Lab-works-on-TaPM/tree/master/PizzaPython)
+[Реализация программы на C++ [60 / 100]](https://github.com/RodKingroo/Lab-works-on-TaPM/tree/master/PizzaCPP)\
+[Реализация программы на Python [80 / 100]](https://github.com/RodKingroo/Lab-works-on-TaPM/tree/master/PizzaPython)
+
+##### [:arrow_up:Назад](#Оглавление)
+----
+
+#### Factory Method
+Разработайте программу по управлению пиццерией на языке C++/Python, согласно диаграмме, приведенной в [презентации](https://docs.google.com/presentation/d/19GqEOdQ2d_GZKGg61XlDGf3WZXh32TU1HvE84Ldm-5U/edit?usp=sharing).
+
+[Реализация программы на C++ [- / 100]](https://github.com/RodKingroo/Lab-works-on-TaPM/tree/master/FactoryMethodCPP)\
+[Реализация программы на Python [- / 100]](https://github.com/RodKingroo/Lab-works-on-TaPM/tree/master/FactoryMethodPython)
 
 ##### [:arrow_up:Назад](#Оглавление)
 ----
