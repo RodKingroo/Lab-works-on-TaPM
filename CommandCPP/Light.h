@@ -1,10 +1,35 @@
+/* Copyright (c) 2022 RodKingroo */
 #pragma once
-#include <iostream>
+using namespace std;
+
+static enum class RoomState
+{
+	UNKNOWN,
+	HALLWAY,
+	LIVINROOM,
+	BEDROOM,
+	KITCHEN,
+	BATHROOM,
+	STOREROOM,
+	GARAGE,
+};
+
 class Light
 {
+	RoomState state = RoomState::UNKNOWN;
 public:
-	void on() { std::cout << "Light On" << std::endl; }
-	void off() { std::cout << "Light Off" << std::endl; }
+	void on();
+	void off();
+
+	void setHallway();
+	void setLivinRoom();
+	void setBedRoom();
+	void setKitchen();
+	void setBathRoom();
+	void setStoreRoom();
+	void setGarage();
+
+	RoomState getRoom();
 
 };
 

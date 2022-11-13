@@ -19,25 +19,18 @@
     </ProjectConfiguration>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="CeilingFan.h" />
-    <ClInclude Include="CeilingFanCommands.h" />
     <ClInclude Include="Command.h" />
-    <ClInclude Include="GarageDoor.h" />
     <ClInclude Include="Light.h" />
     <ClInclude Include="LightCommand.h" />
-    <ClInclude Include="NoCommand.h" />
-    <ClInclude Include="OutdoorLight.h" />
-    <ClInclude Include="RemoteControl.h" />
-    <ClInclude Include="Stereo.h" />
-    <ClInclude Include="StereoCommand.h" />
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="Source.cpp" />
+    <ClCompile Include="Light.cpp" />
+    <ClCompile Include="LightCommand.cpp" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>
     <Keyword>Win32Proj</Keyword>
-    <ProjectGuid>{2bcd00cf-4954-4841-9c95-53b1ebc995e0}</ProjectGuid>
+    <ProjectGuid>{a252a5d3-72f9-41cd-8bea-2c68c4d0f958}</ProjectGuid>
     <RootNamespace>CommandCPP</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
