@@ -1,4 +1,3 @@
-/* Copyright (c) 2022 RodKingroo */
 #pragma once
 using namespace std;
 
@@ -21,13 +20,13 @@ public:
 	void on();
 	void off();
 
-	void setHallway();
-	void setLivinRoom();
-	void setBedRoom();
-	void setKitchen();
-	void setBathRoom();
-	void setStoreRoom();
-	void setGarage();
+	void getHallway();
+	void getLivinRoom();
+	void getBedRoom();
+	void getKitchen();
+	void getBathRoom();
+	void getStoreRoom();
+	void getGarage();
 
 	RoomState getRoom();
 

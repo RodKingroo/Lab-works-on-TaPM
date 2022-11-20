@@ -1,5 +1,3 @@
-/* Copyright (c) 2022 RodKingroo */
-
 #include "Light.h"
 #include <iostream>
 
@@ -16,49 +14,49 @@ void Light::off()
 }
 
 
-void Light::setHallway() 
+void Light::getHallway() 
 {
 	cout << "Hallway light selected" << endl;
 	state = RoomState::HALLWAY;
 
 }
 
-void Light::setLivinRoom() 
+void Light::getLivinRoom() 
 {
 	cout << "LivinRoom light selected" << endl;
 	state = RoomState::LIVINROOM;
 
 }
 
-void Light::setBedRoom() 
+void Light::getBedRoom() 
 {
 	cout << "Bed Room light selected" << endl;
 	state = RoomState::BEDROOM;
 
 }
 
-void Light::setKitchen() 
+void Light::getKitchen() 
 {
 	cout << "Kitchen light selected" << endl;
 	state = RoomState::KITCHEN;
 
 }
 
-void Light::setBathRoom() 
+void Light::getBathRoom() 
 {
 	cout << "Bath Room light selected" << endl;
 	state = RoomState::BATHROOM;
 
 }
 
-void Light::setStoreRoom() 
+void Light::getStoreRoom() 
 {
 	cout << "Store Room light selected" << endl;
 	state = RoomState::STOREROOM;
 
 }
 
-void Light::setGarage() 
+void Light::getGarage() 
 {
 	cout << "Garage Room light selected" << endl;
 	state = RoomState::GARAGE;

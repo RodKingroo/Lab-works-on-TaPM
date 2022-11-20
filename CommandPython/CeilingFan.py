@@ -1,28 +1,18 @@
-### Copyright (c) 2022 RodKingroo
+# Copyright (c) 2022 RodKingroo
 
 class CeilingFan:
     def __init__(self):
-        self.High = 3
-        self.Medium = 2
-        self.Low = 1
-        self.Off = 0
-        self.speed = self.Off
-
+        self.OFF = 0
+        self.HIGH = 3
+        self.speed = self.OFF
+    
     def high(self):
-        self.speed = self.High
+        self.speed = self.HIGH
         print('Ceiling Fan Speed', self.speed)
-
-    def medium(self):
-        self.speed = self.Medium
-        print('Ceiling Fan Speed', self.speed)
-
-    def low(self):
-        self.speed = self.Low
-        print('Ceiling Fan Speed', self.speed)
-
+        
     def off(self):
-        self.speed = self.off
+        self.speed = self.OFF
         print('Ceiling Fan Speed', self.speed)
-
-    def getSpeed(self):
+    
+    def getState(self):
         return self.speed
