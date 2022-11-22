@@ -1,9 +1,10 @@
 # Copyright (c) 2022 RodKingroo
+from StreetLight import *
 from RemoteControl import *
 from CeilingFan import *
 from Stereo import *
 from Light import *
-import CeilingFanCommand, StereoCommand, LightCommand
+import CeilingFanCommand, StereoCommand, LightCommand, StreetLightCommand
 
 # Command pattern CLIENT
 if __name__ == "__main__":
@@ -14,6 +15,7 @@ if __name__ == "__main__":
     bedRoomCeilingFan = CeilingFan()
     bedRoomStereo = Stereo()
     bedRoomLight = Light()
+    bedRoomStreetLight = StreetLight()
     
     # Command pattern COMMANDS
     bedRoomСeilingFanStageOne = CeilingFanCommand.CeilingFanStageOneCommand(bedRoomCeilingFan)
@@ -37,6 +39,13 @@ if __name__ == "__main__":
     bedRoomLightStageFive = LightCommand.LightOnStageFiveCommand(bedRoomLight)
     bedRoomLightOff = LightCommand.LightOffCommand(bedRoomLight)
     
+    bedRoomStreetLightStageOne = StreetLightCommand.LightOnStageOneCommand(bedRoomStreetLight)
+    bedRoomStreetLightStageTwo = StreetLightCommand.LightOnStageTwoCommand(bedRoomStreetLight)
+    bedRoomStreetLightStageThree = StreetLightCommand.LightOnStageThreeCommand(bedRoomStreetLight)
+    bedRoomStreetLightStageFour = StreetLightCommand.LightOnStageFourCommand(bedRoomStreetLight)
+    bedRoomStreetLightStageFive = StreetLightCommand.LightOnStageFiveCommand(bedRoomStreetLight)
+    bedRoomStreetLightOff = StreetLightCommand.LightOffCommand(bedRoomStreetLight)
+    
     # Setting command to invocer
     remote.setCommand(1, bedRoomСeilingFanStageOne, bedRoomСeilingFanOff)
     remote.setCommand(2, bedRoomСeilingFanStageTwo, bedRoomСeilingFanOff)
@@ -56,7 +65,14 @@ if __name__ == "__main__":
     remote.setCommand(14, bedRoomLightStageFour, bedRoomLightOff)
     remote.setCommand(15, bedRoomLightStageFive, bedRoomLightOff)
     
+    remote.setCommand(16, bedRoomStreetLightStageOne, bedRoomStreetLightOff)
+    remote.setCommand(17, bedRoomStreetLightStageTwo, bedRoomStreetLightOff)
+    remote.setCommand(18, bedRoomStreetLightStageThree, bedRoomStreetLightOff)
+    remote.setCommand(19, bedRoomStreetLightStageFour, bedRoomStreetLightOff)
+    remote.setCommand(20, bedRoomStreetLightStageFive, bedRoomStreetLightOff)
+    
+    
     # Execitomg commands
-    remote.onButtonPress(15)
-    remote.offButtonPress(15)
+    remote.onButtonPress(20)
+    remote.offButtonPress(20)
     remote.undoButtonPress()
