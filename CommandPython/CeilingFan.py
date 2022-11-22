@@ -10,9 +10,11 @@ class CeilingFan:
         self.STAGE_FIVE = 16
         self.speed = self.OFF
     
+    def on(self):
+        print('Ceiling Fan On')
+    
     def off(self):
-        self.speed = self.OFF
-        print('Ceiling Fan Speed', self.speed)
+        print("Ceiling Fan Off")
     
     def stage_1(self):
         self.speed = self.STAGE_ONE

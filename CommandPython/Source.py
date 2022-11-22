@@ -2,7 +2,8 @@
 from RemoteControl import *
 from CeilingFan import *
 from Stereo import *
-import CeilingFanCommand, StereoCommand
+from Light import *
+import CeilingFanCommand, StereoCommand, LightCommand
 
 # Command pattern CLIENT
 if __name__ == "__main__":
@@ -12,6 +13,7 @@ if __name__ == "__main__":
     # Command pattern RECEIVERS
     bedRoomCeilingFan = CeilingFan()
     bedRoomStereo = Stereo()
+    bedRoomLight = Light()
     
     # Command pattern COMMANDS
     bedRoomСeilingFanStageOne = CeilingFanCommand.CeilingFanStageOneCommand(bedRoomCeilingFan)
@@ -28,6 +30,13 @@ if __name__ == "__main__":
     bedRoomStereoCLOUDMUSIC = StereoCommand.StereoOnCloudMusicCommand(bedRoomStereo)
     bedRoomStereoOff = StereoCommand.StereoOffCommand(bedRoomStereo)
     
+    bedRoomLightStageOne = LightCommand.LightOnStageOneCommand(bedRoomLight)
+    bedRoomLightStageTwo = LightCommand.LightOnStageTwoCommand(bedRoomLight)
+    bedRoomLightStageThree = LightCommand.LightOnStageThreeCommand(bedRoomLight)
+    bedRoomLightStageFour = LightCommand.LightOnStageFourCommand(bedRoomLight)
+    bedRoomLightStageFive = LightCommand.LightOnStageFiveCommand(bedRoomLight)
+    bedRoomLightOff = LightCommand.LightOffCommand(bedRoomLight)
+    
     # Setting command to invocer
     remote.setCommand(1, bedRoomСeilingFanStageOne, bedRoomСeilingFanOff)
     remote.setCommand(2, bedRoomСeilingFanStageTwo, bedRoomСeilingFanOff)
@@ -41,8 +50,13 @@ if __name__ == "__main__":
     remote.setCommand(9, bedRoomStereoRADIO, bedRoomStereoOff)
     remote.setCommand(10, bedRoomStereoCLOUDMUSIC, bedRoomStereoOff)
     
+    remote.setCommand(11, bedRoomLightStageOne, bedRoomLightOff)
+    remote.setCommand(12, bedRoomLightStageTwo, bedRoomLightOff)
+    remote.setCommand(13, bedRoomLightStageThree, bedRoomLightOff)
+    remote.setCommand(14, bedRoomLightStageFour, bedRoomLightOff)
+    remote.setCommand(15, bedRoomLightStageFive, bedRoomLightOff)
     
     # Execitomg commands
-    remote.onButtonPress(10)
-    remote.offButtonPress(10)
+    remote.onButtonPress(15)
+    remote.offButtonPress(15)
     remote.undoButtonPress()

@@ -4,7 +4,6 @@ from Stereo import *
 from Command import *
 
 def setUndo(stereo, prevType):
-    stereo.on()
     if prevType == stereo.CASSETTE:
         stereo.setCASSETTE()
         stereo.setVolume(10)
@@ -31,12 +30,15 @@ class StereoOnCassetteCommand(Command):
             raise NotImplementedError
         
     def execute(self):
+        self.prevType = self.stereo.getState()
         self.stereo.on()
         self.stereo.setCASSETTE()
         self.stereo.setVolume(10)
             
     def undo(self):
         self.stereo.off()
+        self.stereo = setUndo(self.stereo, self.prevType)
+        
         
 
 # Stereo On CD Command
@@ -48,12 +50,14 @@ class StereoOnCDCommand(Command):
             raise NotImplementedError
         
     def execute(self):
+        self.prevType = self.stereo.getState()
         self.stereo.on()
         self.stereo.setCD()
         self.stereo.setVolume(5)
         
     def undo(self):
         self.stereo.off()
+        self.stereo = setUndo(self.stereo, self.prevType)
         
 
 # Stereo On DVD Command
@@ -65,12 +69,15 @@ class StereoOnDVDCommand(Command):
             raise NotImplementedError
         
     def execute(self):
+        self.prevType = self.stereo.getState()
         self.stereo.on()
         self.stereo.setDVD()
         self.stereo.setVolume(15)
         
     def undo(self):
         self.stereo.off()
+        self.stereo = setUndo(self.stereo, self.prevType)
+        
         
         
 # Stereo On Radio Command
@@ -82,12 +89,14 @@ class StereoOnRadioCommand(Command):
             raise NotImplementedError
         
     def execute(self):
+        self.prevType = self.stereo.getState()
         self.stereo.on()
         self.stereo.setRADIO()
         self.stereo.setVolume(50)
         
     def undo(self):
         self.stereo.off()
+        self.stereo = setUndo(self.stereo, self.prevType)
         
         
 # Stereo on Cloud Music command
@@ -99,12 +108,14 @@ class StereoOnCloudMusicCommand(Command):
             raise NotImplementedError
         
     def execute(self):
+        self.prevType = self.stereo.getState()
         self.stereo.on()
         self.stereo.setCLOUDMUSIC()
         self.stereo.setVolume(70)
         
     def undo(self):
         self.stereo.off()
+        self.stereo = setUndo(self.stereo, self.prevType)
         
                
 #Stereo Off Command
@@ -120,4 +131,5 @@ class StereoOffCommand(Command):
         self.stereo.off()
         
     def undo(self):
+        self.stereo.on()
         self.stereo = setUndo(self.stereo, self.prevType)

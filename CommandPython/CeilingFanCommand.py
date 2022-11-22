@@ -25,10 +25,13 @@ class CeilingFanOffCommand(Command):
             self.ceilingFan = ceilingFan
         else:
             raise NotImplementedError
+        
     def execute(self):
         self.prevSpeed = self.ceilingFan.getState()
         self.ceilingFan.off()
+        
     def undo(self):
+        self.ceilingFan.on()
         self.ceilingFan = setUndo(self.ceilingFan, self.prevSpeed)
 
 # Ceiling Fan Stage One Command
@@ -38,10 +41,14 @@ class CeilingFanStageOneCommand(Command):
             self.ceilingFan = ceilingFan
         else:
             raise NotImplementedError
+        
     def execute(self):
         self.prevSpeed = self.ceilingFan.getState()
         self.ceilingFan.stage_1()
+        self.ceilingFan.on()
+        
     def undo(self):
+        self.ceilingFan.off()
         self.ceilingFan = setUndo(self.ceilingFan, self.prevSpeed)
         
         
@@ -52,10 +59,13 @@ class CeilingFanStageTwoCommand(Command):
             self.ceilingFan = ceilingFan
         else:
             raise NotImplementedError
+        
     def execute(self):
         self.prevSpeed = self.ceilingFan.getState()
         self.ceilingFan.stage_2()
+        
     def undo(self):
+        self.ceilingFan.off()
         self.ceilingFan = setUndo(self.ceilingFan, self.prevSpeed)
    
         
@@ -66,10 +76,13 @@ class CeilingFanStageThreeCommand(Command):
             self.ceilingFan = ceilingFan
         else:
             raise NotImplementedError
+        
     def execute(self):
         self.prevSpeed = self.ceilingFan.getState()
         self.ceilingFan.stage_3()
+        
     def undo(self):
+        self.ceilingFan.off()
         self.ceilingFan = setUndo(self.ceilingFan, self.prevSpeed)
         
         
@@ -80,10 +93,13 @@ class CeilingFanStageFourCommand(Command):
             self.ceilingFan = ceilingFan
         else:
             raise NotImplementedError
+        
     def execute(self):
         self.prevSpeed = self.ceilingFan.getState()
         self.ceilingFan.stage_4()
+        
     def undo(self):
+        self.ceilingFan.off()
         self.ceilingFan = setUndo(self.ceilingFan, self.prevSpeed)
         
 
@@ -94,8 +110,11 @@ class CeilingFanStageFiveCommand(Command):
             self.ceilingFan = ceilingFan
         else:
             raise NotImplementedError
+    
     def execute(self):
         self.prevSpeed = self.ceilingFan.getState()
         self.ceilingFan.stage_5()
+        
     def undo(self):
+        self.ceilingFan.off()
         self.ceilingFan = setUndo(self.ceilingFan, self.prevSpeed)
