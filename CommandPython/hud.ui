@@ -6,8 +6,8 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>439</width>
-    <height>370</height>
+    <width>430</width>
+    <height>379</height>
    </rect>
   </property>
   <property name="windowTitle">
@@ -18,13 +18,13 @@
     <property name="geometry">
      <rect>
       <x>0</x>
-      <y>-1</y>
-      <width>441</width>
-      <height>371</height>
+      <y>80</y>
+      <width>431</width>
+      <height>241</height>
      </rect>
     </property>
     <property name="currentIndex">
-     <number>5</number>
+     <number>3</number>
     </property>
     <widget class="QWidget" name="tab">
      <attribute name="title">
@@ -33,10 +33,10 @@
      <widget class="QGroupBox" name="groupBox">
       <property name="geometry">
        <rect>
-        <x>60</x>
-        <y>80</y>
+        <x>50</x>
+        <y>10</y>
         <width>311</width>
-        <height>121</height>
+        <height>101</height>
        </rect>
       </property>
       <property name="title">
@@ -60,24 +60,11 @@
           <x>10</x>
           <y>20</y>
           <width>31</width>
-          <height>23</height>
+          <height>41</height>
          </rect>
         </property>
         <property name="text">
-         <string>On</string>
-        </property>
-       </widget>
-       <widget class="QPushButton" name="ButtonOffCFHRSpeed1">
-        <property name="geometry">
-         <rect>
-          <x>10</x>
-          <y>40</y>
-          <width>31</width>
-          <height>23</height>
-         </rect>
-        </property>
-        <property name="text">
-         <string>Off</string>
+         <string/>
         </property>
        </widget>
       </widget>
@@ -99,24 +86,11 @@
           <x>10</x>
           <y>20</y>
           <width>31</width>
-          <height>23</height>
+          <height>41</height>
          </rect>
         </property>
         <property name="text">
-         <string>On</string>
-        </property>
-       </widget>
-       <widget class="QPushButton" name="ButtonOffCFHRSpeed2">
-        <property name="geometry">
-         <rect>
-          <x>10</x>
-          <y>40</y>
-          <width>31</width>
-          <height>23</height>
-         </rect>
-        </property>
-        <property name="text">
-         <string>Off</string>
+         <string/>
         </property>
        </widget>
       </widget>
@@ -138,24 +112,11 @@
           <x>10</x>
           <y>20</y>
           <width>31</width>
-          <height>23</height>
+          <height>41</height>
          </rect>
         </property>
         <property name="text">
-         <string>On</string>
-        </property>
-       </widget>
-       <widget class="QPushButton" name="ButtonOffCFHRSpeed3">
-        <property name="geometry">
-         <rect>
-          <x>10</x>
-          <y>40</y>
-          <width>31</width>
-          <height>23</height>
-         </rect>
-        </property>
-        <property name="text">
-         <string>Off</string>
+         <string/>
         </property>
        </widget>
       </widget>
@@ -177,24 +138,11 @@
           <x>10</x>
           <y>20</y>
           <width>31</width>
-          <height>23</height>
+          <height>41</height>
          </rect>
         </property>
         <property name="text">
-         <string>On</string>
-        </property>
-       </widget>
-       <widget class="QPushButton" name="ButtonOffCFHRSpeed4">
-        <property name="geometry">
-         <rect>
-          <x>10</x>
-          <y>40</y>
-          <width>31</width>
-          <height>23</height>
-         </rect>
-        </property>
-        <property name="text">
-         <string>Off</string>
+         <string/>
         </property>
        </widget>
       </widget>
@@ -216,65 +164,22 @@
           <x>10</x>
           <y>20</y>
           <width>31</width>
-          <height>23</height>
+          <height>41</height>
          </rect>
         </property>
         <property name="text">
-         <string>On</string>
-        </property>
-       </widget>
-       <widget class="QPushButton" name="ButtonOffCFHRSpeed5">
-        <property name="geometry">
-         <rect>
-          <x>10</x>
-          <y>40</y>
-          <width>31</width>
-          <height>23</height>
-         </rect>
-        </property>
-        <property name="text">
-         <string>Off</string>
+         <string/>
         </property>
        </widget>
       </widget>
-      <widget class="QPushButton" name="ButtonUndoCFHR">
-       <property name="geometry">
-        <rect>
-         <x>20</x>
-         <y>90</y>
-         <width>271</width>
-         <height>23</height>
-        </rect>
-       </property>
-       <property name="text">
-        <string>Back</string>
-       </property>
-      </widget>
-     </widget>
-     <widget class="QTextEdit" name="OutputCeilingFan">
-      <property name="geometry">
-       <rect>
-        <x>60</x>
-        <y>20</y>
-        <width>311</width>
-        <height>51</height>
-       </rect>
-      </property>
-      <property name="html">
-       <string>&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
-&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
-p, li { white-space: pre-wrap; }
-&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:'MS Shell Dlg 2'; font-size:8.25pt; font-weight:400; font-style:normal;&quot;&gt;
-&lt;p style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;br /&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
-      </property>
      </widget>
      <widget class="QGroupBox" name="groupBox_7">
       <property name="geometry">
        <rect>
-        <x>60</x>
-        <y>210</y>
+        <x>50</x>
+        <y>110</y>
         <width>311</width>
-        <height>121</height>
+        <height>101</height>
        </rect>
       </property>
       <property name="title">
@@ -298,24 +203,11 @@ p, li { white-space: pre-wrap; }
           <x>10</x>
           <y>20</y>
           <width>31</width>
-          <height>23</height>
+          <height>41</height>
          </rect>
         </property>
         <property name="text">
-         <string>On</string>
-        </property>
-       </widget>
-       <widget class="QPushButton" name="ButtonOffCFBRSpeed1">
-        <property name="geometry">
-         <rect>
-          <x>10</x>
-          <y>40</y>
-          <width>31</width>
-          <height>23</height>
-         </rect>
-        </property>
-        <property name="text">
-         <string>Off</string>
+         <string/>
         </property>
        </widget>
       </widget>
@@ -337,24 +229,11 @@ p, li { white-space: pre-wrap; }
           <x>10</x>
           <y>20</y>
           <width>31</width>
-          <height>23</height>
+          <height>41</height>
          </rect>
         </property>
         <property name="text">
-         <string>On</string>
-        </property>
-       </widget>
-       <widget class="QPushButton" name="ButtonOffCFBRSpeed2">
-        <property name="geometry">
-         <rect>
-          <x>10</x>
-          <y>40</y>
-          <width>31</width>
-          <height>23</height>
-         </rect>
-        </property>
-        <property name="text">
-         <string>Off</string>
+         <string/>
         </property>
        </widget>
       </widget>
@@ -376,24 +255,11 @@ p, li { white-space: pre-wrap; }
           <x>10</x>
           <y>20</y>
           <width>31</width>
-          <height>23</height>
+          <height>41</height>
          </rect>
         </property>
         <property name="text">
-         <string>On</string>
-        </property>
-       </widget>
-       <widget class="QPushButton" name="ButtonOffCFBRSpeed3">
-        <property name="geometry">
-         <rect>
-          <x>10</x>
-          <y>40</y>
-          <width>31</width>
-          <height>23</height>
-         </rect>
-        </property>
-        <property name="text">
-         <string>Off</string>
+         <string/>
         </property>
        </widget>
       </widget>
@@ -415,24 +281,11 @@ p, li { white-space: pre-wrap; }
           <x>10</x>
           <y>20</y>
           <width>31</width>
-          <height>23</height>
+          <height>41</height>
          </rect>
         </property>
         <property name="text">
-         <string>On</string>
-        </property>
-       </widget>
-       <widget class="QPushButton" name="ButtonOffCFBRSpeed4">
-        <property name="geometry">
-         <rect>
-          <x>10</x>
-          <y>40</y>
-          <width>31</width>
-          <height>23</height>
-         </rect>
-        </property>
-        <property name="text">
-         <string>Off</string>
+         <string/>
         </property>
        </widget>
       </widget>
@@ -454,39 +307,13 @@ p, li { white-space: pre-wrap; }
           <x>10</x>
           <y>20</y>
           <width>31</width>
-          <height>23</height>
+          <height>41</height>
          </rect>
         </property>
         <property name="text">
-         <string>On</string>
+         <string/>
         </property>
        </widget>
-       <widget class="QPushButton" name="ButtonOffCFBRSpeed5">
-        <property name="geometry">
-         <rect>
-          <x>10</x>
-          <y>40</y>
-          <width>31</width>
-          <height>23</height>
-         </rect>
-        </property>
-        <property name="text">
-         <string>Off</string>
-        </property>
-       </widget>
-      </widget>
-      <widget class="QPushButton" name="ButtonUndoCFBR">
-       <property name="geometry">
-        <rect>
-         <x>20</x>
-         <y>90</y>
-         <width>271</width>
-         <height>23</height>
-        </rect>
-       </property>
-       <property name="text">
-        <string>Back</string>
-       </property>
       </widget>
      </widget>
     </widget>
@@ -494,30 +321,13 @@ p, li { white-space: pre-wrap; }
      <attribute name="title">
       <string>Stereo</string>
      </attribute>
-     <widget class="QTextEdit" name="OutputStereo">
-      <property name="geometry">
-       <rect>
-        <x>60</x>
-        <y>20</y>
-        <width>311</width>
-        <height>51</height>
-       </rect>
-      </property>
-      <property name="html">
-       <string>&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
-&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
-p, li { white-space: pre-wrap; }
-&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:'MS Shell Dlg 2'; font-size:8.25pt; font-weight:400; font-style:normal;&quot;&gt;
-&lt;p style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;br /&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
-      </property>
-     </widget>
      <widget class="QGroupBox" name="groupBox_25">
       <property name="geometry">
        <rect>
-        <x>60</x>
-        <y>80</y>
+        <x>50</x>
+        <y>10</y>
         <width>311</width>
-        <height>121</height>
+        <height>101</height>
        </rect>
       </property>
       <property name="title">
@@ -541,24 +351,11 @@ p, li { white-space: pre-wrap; }
           <x>10</x>
           <y>20</y>
           <width>31</width>
-          <height>23</height>
+          <height>41</height>
          </rect>
         </property>
         <property name="text">
-         <string>On</string>
-        </property>
-       </widget>
-       <widget class="QPushButton" name="ButtonOffSHRCassete">
-        <property name="geometry">
-         <rect>
-          <x>10</x>
-          <y>40</y>
-          <width>31</width>
-          <height>23</height>
-         </rect>
-        </property>
-        <property name="text">
-         <string>Off</string>
+         <string/>
         </property>
        </widget>
       </widget>
@@ -580,24 +377,11 @@ p, li { white-space: pre-wrap; }
           <x>10</x>
           <y>20</y>
           <width>31</width>
-          <height>23</height>
+          <height>41</height>
          </rect>
         </property>
         <property name="text">
-         <string>On</string>
-        </property>
-       </widget>
-       <widget class="QPushButton" name="ButtonOffSHRCD_2">
-        <property name="geometry">
-         <rect>
-          <x>10</x>
-          <y>40</y>
-          <width>31</width>
-          <height>23</height>
-         </rect>
-        </property>
-        <property name="text">
-         <string>Off</string>
+         <string/>
         </property>
        </widget>
       </widget>
@@ -619,24 +403,11 @@ p, li { white-space: pre-wrap; }
           <x>10</x>
           <y>20</y>
           <width>31</width>
-          <height>23</height>
+          <height>41</height>
          </rect>
         </property>
         <property name="text">
-         <string>On</string>
-        </property>
-       </widget>
-       <widget class="QPushButton" name="ButtonOffSHRDVD">
-        <property name="geometry">
-         <rect>
-          <x>10</x>
-          <y>40</y>
-          <width>31</width>
-          <height>23</height>
-         </rect>
-        </property>
-        <property name="text">
-         <string>Off</string>
+         <string/>
         </property>
        </widget>
       </widget>
@@ -658,24 +429,11 @@ p, li { white-space: pre-wrap; }
           <x>10</x>
           <y>20</y>
           <width>31</width>
-          <height>23</height>
+          <height>41</height>
          </rect>
         </property>
         <property name="text">
-         <string>On</string>
-        </property>
-       </widget>
-       <widget class="QPushButton" name="ButtonOffSHRRadio">
-        <property name="geometry">
-         <rect>
-          <x>10</x>
-          <y>40</y>
-          <width>31</width>
-          <height>23</height>
-         </rect>
-        </property>
-        <property name="text">
-         <string>Off</string>
+         <string/>
         </property>
        </widget>
       </widget>
@@ -697,48 +455,22 @@ p, li { white-space: pre-wrap; }
           <x>10</x>
           <y>20</y>
           <width>31</width>
-          <height>23</height>
+          <height>41</height>
          </rect>
         </property>
         <property name="text">
-         <string>On</string>
+         <string/>
         </property>
        </widget>
-       <widget class="QPushButton" name="ButtonOffSHRCloud">
-        <property name="geometry">
-         <rect>
-          <x>10</x>
-          <y>40</y>
-          <width>31</width>
-          <height>23</height>
-         </rect>
-        </property>
-        <property name="text">
-         <string>Off</string>
-        </property>
-       </widget>
-      </widget>
-      <widget class="QPushButton" name="ButtonUndoSHR">
-       <property name="geometry">
-        <rect>
-         <x>20</x>
-         <y>90</y>
-         <width>271</width>
-         <height>23</height>
-        </rect>
-       </property>
-       <property name="text">
-        <string>Back</string>
-       </property>
       </widget>
      </widget>
      <widget class="QGroupBox" name="groupBox_31">
       <property name="geometry">
        <rect>
-        <x>60</x>
-        <y>210</y>
+        <x>50</x>
+        <y>110</y>
         <width>311</width>
-        <height>121</height>
+        <height>101</height>
        </rect>
       </property>
       <property name="title">
@@ -762,24 +494,11 @@ p, li { white-space: pre-wrap; }
           <x>10</x>
           <y>20</y>
           <width>31</width>
-          <height>23</height>
+          <height>41</height>
          </rect>
         </property>
         <property name="text">
-         <string>On</string>
-        </property>
-       </widget>
-       <widget class="QPushButton" name="ButtonOffSBRCassete">
-        <property name="geometry">
-         <rect>
-          <x>10</x>
-          <y>40</y>
-          <width>31</width>
-          <height>23</height>
-         </rect>
-        </property>
-        <property name="text">
-         <string>Off</string>
+         <string/>
         </property>
        </widget>
       </widget>
@@ -801,24 +520,11 @@ p, li { white-space: pre-wrap; }
           <x>10</x>
           <y>20</y>
           <width>31</width>
-          <height>23</height>
+          <height>41</height>
          </rect>
         </property>
         <property name="text">
-         <string>On</string>
-        </property>
-       </widget>
-       <widget class="QPushButton" name="ButtonOffSBRCD">
-        <property name="geometry">
-         <rect>
-          <x>10</x>
-          <y>40</y>
-          <width>31</width>
-          <height>23</height>
-         </rect>
-        </property>
-        <property name="text">
-         <string>Off</string>
+         <string/>
         </property>
        </widget>
       </widget>
@@ -840,24 +546,11 @@ p, li { white-space: pre-wrap; }
           <x>10</x>
           <y>20</y>
           <width>31</width>
-          <height>23</height>
+          <height>41</height>
          </rect>
         </property>
         <property name="text">
-         <string>On</string>
-        </property>
-       </widget>
-       <widget class="QPushButton" name="ButtonOffSBRDVD">
-        <property name="geometry">
-         <rect>
-          <x>10</x>
-          <y>40</y>
-          <width>31</width>
-          <height>23</height>
-         </rect>
-        </property>
-        <property name="text">
-         <string>Off</string>
+         <string/>
         </property>
        </widget>
       </widget>
@@ -879,24 +572,11 @@ p, li { white-space: pre-wrap; }
           <x>10</x>
           <y>20</y>
           <width>31</width>
-          <height>23</height>
+          <height>41</height>
          </rect>
         </property>
         <property name="text">
-         <string>On</string>
-        </property>
-       </widget>
-       <widget class="QPushButton" name="ButtonOffSBRRadio">
-        <property name="geometry">
-         <rect>
-          <x>10</x>
-          <y>40</y>
-          <width>31</width>
-          <height>23</height>
-         </rect>
-        </property>
-        <property name="text">
-         <string>Off</string>
+         <string/>
         </property>
        </widget>
       </widget>
@@ -918,39 +598,13 @@ p, li { white-space: pre-wrap; }
           <x>10</x>
           <y>20</y>
           <width>31</width>
-          <height>23</height>
+          <height>41</height>
          </rect>
         </property>
         <property name="text">
-         <string>On</string>
+         <string/>
         </property>
        </widget>
-       <widget class="QPushButton" name="ButtonOffSBRCloud">
-        <property name="geometry">
-         <rect>
-          <x>10</x>
-          <y>40</y>
-          <width>31</width>
-          <height>23</height>
-         </rect>
-        </property>
-        <property name="text">
-         <string>Off</string>
-        </property>
-       </widget>
-      </widget>
-      <widget class="QPushButton" name="ButtonUndoSBR">
-       <property name="geometry">
-        <rect>
-         <x>20</x>
-         <y>90</y>
-         <width>271</width>
-         <height>23</height>
-        </rect>
-       </property>
-       <property name="text">
-        <string>Back</string>
-       </property>
       </widget>
      </widget>
     </widget>
@@ -958,30 +612,13 @@ p, li { white-space: pre-wrap; }
      <attribute name="title">
       <string>Light</string>
      </attribute>
-     <widget class="QTextEdit" name="OutputLight">
-      <property name="geometry">
-       <rect>
-        <x>60</x>
-        <y>20</y>
-        <width>311</width>
-        <height>51</height>
-       </rect>
-      </property>
-      <property name="html">
-       <string>&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
-&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
-p, li { white-space: pre-wrap; }
-&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:'MS Shell Dlg 2'; font-size:8.25pt; font-weight:400; font-style:normal;&quot;&gt;
-&lt;p style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;br /&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
-      </property>
-     </widget>
      <widget class="QGroupBox" name="groupBox_37">
       <property name="geometry">
        <rect>
-        <x>60</x>
-        <y>80</y>
+        <x>50</x>
+        <y>10</y>
         <width>311</width>
-        <height>121</height>
+        <height>101</height>
        </rect>
       </property>
       <property name="title">
@@ -1005,24 +642,11 @@ p, li { white-space: pre-wrap; }
           <x>10</x>
           <y>20</y>
           <width>31</width>
-          <height>23</height>
+          <height>41</height>
          </rect>
         </property>
         <property name="text">
-         <string>On</string>
-        </property>
-       </widget>
-       <widget class="QPushButton" name="ButtonOffLHRBright1">
-        <property name="geometry">
-         <rect>
-          <x>10</x>
-          <y>40</y>
-          <width>31</width>
-          <height>23</height>
-         </rect>
-        </property>
-        <property name="text">
-         <string>Off</string>
+         <string/>
         </property>
        </widget>
       </widget>
@@ -1044,24 +668,11 @@ p, li { white-space: pre-wrap; }
           <x>10</x>
           <y>20</y>
           <width>31</width>
-          <height>23</height>
+          <height>41</height>
          </rect>
         </property>
         <property name="text">
-         <string>On</string>
-        </property>
-       </widget>
-       <widget class="QPushButton" name="ButtonOffLHRBright2">
-        <property name="geometry">
-         <rect>
-          <x>10</x>
-          <y>40</y>
-          <width>31</width>
-          <height>23</height>
-         </rect>
-        </property>
-        <property name="text">
-         <string>Off</string>
+         <string/>
         </property>
        </widget>
       </widget>
@@ -1083,24 +694,11 @@ p, li { white-space: pre-wrap; }
           <x>10</x>
           <y>20</y>
           <width>31</width>
-          <height>23</height>
+          <height>41</height>
          </rect>
         </property>
         <property name="text">
-         <string>On</string>
-        </property>
-       </widget>
-       <widget class="QPushButton" name="ButtonOffLHRBright3">
-        <property name="geometry">
-         <rect>
-          <x>10</x>
-          <y>40</y>
-          <width>31</width>
-          <height>23</height>
-         </rect>
-        </property>
-        <property name="text">
-         <string>Off</string>
+         <string/>
         </property>
        </widget>
       </widget>
@@ -1122,24 +720,11 @@ p, li { white-space: pre-wrap; }
           <x>10</x>
           <y>20</y>
           <width>31</width>
-          <height>23</height>
+          <height>41</height>
          </rect>
         </property>
         <property name="text">
-         <string>On</string>
-        </property>
-       </widget>
-       <widget class="QPushButton" name="ButtonOffLHRBright4">
-        <property name="geometry">
-         <rect>
-          <x>10</x>
-          <y>40</y>
-          <width>31</width>
-          <height>23</height>
-         </rect>
-        </property>
-        <property name="text">
-         <string>Off</string>
+         <string/>
         </property>
        </widget>
       </widget>
@@ -1161,48 +746,22 @@ p, li { white-space: pre-wrap; }
           <x>10</x>
           <y>20</y>
           <width>31</width>
-          <height>23</height>
+          <height>41</height>
          </rect>
         </property>
         <property name="text">
-         <string>On</string>
+         <string/>
         </property>
        </widget>
-       <widget class="QPushButton" name="ButtonOffLHRBright5">
-        <property name="geometry">
-         <rect>
-          <x>10</x>
-          <y>40</y>
-          <width>31</width>
-          <height>23</height>
-         </rect>
-        </property>
-        <property name="text">
-         <string>Off</string>
-        </property>
-       </widget>
-      </widget>
-      <widget class="QPushButton" name="ButtonUndoLHR">
-       <property name="geometry">
-        <rect>
-         <x>20</x>
-         <y>90</y>
-         <width>271</width>
-         <height>23</height>
-        </rect>
-       </property>
-       <property name="text">
-        <string>Back</string>
-       </property>
       </widget>
      </widget>
      <widget class="QGroupBox" name="groupBox_43">
       <property name="geometry">
        <rect>
-        <x>60</x>
-        <y>210</y>
+        <x>50</x>
+        <y>110</y>
         <width>311</width>
-        <height>121</height>
+        <height>101</height>
        </rect>
       </property>
       <property name="title">
@@ -1226,24 +785,11 @@ p, li { white-space: pre-wrap; }
           <x>10</x>
           <y>20</y>
           <width>31</width>
-          <height>23</height>
+          <height>41</height>
          </rect>
         </property>
         <property name="text">
-         <string>On</string>
-        </property>
-       </widget>
-       <widget class="QPushButton" name="ButtonOffLBRBright1">
-        <property name="geometry">
-         <rect>
-          <x>10</x>
-          <y>40</y>
-          <width>31</width>
-          <height>23</height>
-         </rect>
-        </property>
-        <property name="text">
-         <string>Off</string>
+         <string/>
         </property>
        </widget>
       </widget>
@@ -1265,24 +811,11 @@ p, li { white-space: pre-wrap; }
           <x>10</x>
           <y>20</y>
           <width>31</width>
-          <height>23</height>
+          <height>41</height>
          </rect>
         </property>
         <property name="text">
-         <string>On</string>
-        </property>
-       </widget>
-       <widget class="QPushButton" name="ButtonOffLBRBright2">
-        <property name="geometry">
-         <rect>
-          <x>10</x>
-          <y>40</y>
-          <width>31</width>
-          <height>23</height>
-         </rect>
-        </property>
-        <property name="text">
-         <string>Off</string>
+         <string/>
         </property>
        </widget>
       </widget>
@@ -1304,24 +837,11 @@ p, li { white-space: pre-wrap; }
           <x>10</x>
           <y>20</y>
           <width>31</width>
-          <height>23</height>
+          <height>41</height>
          </rect>
         </property>
         <property name="text">
-         <string>On</string>
-        </property>
-       </widget>
-       <widget class="QPushButton" name="ButtonOffLBRBright3">
-        <property name="geometry">
-         <rect>
-          <x>10</x>
-          <y>40</y>
-          <width>31</width>
-          <height>23</height>
-         </rect>
-        </property>
-        <property name="text">
-         <string>Off</string>
+         <string/>
         </property>
        </widget>
       </widget>
@@ -1343,24 +863,11 @@ p, li { white-space: pre-wrap; }
           <x>10</x>
           <y>20</y>
           <width>31</width>
-          <height>23</height>
+          <height>41</height>
          </rect>
         </property>
         <property name="text">
-         <string>On</string>
-        </property>
-       </widget>
-       <widget class="QPushButton" name="ButtonOffLBRBright4">
-        <property name="geometry">
-         <rect>
-          <x>10</x>
-          <y>40</y>
-          <width>31</width>
-          <height>23</height>
-         </rect>
-        </property>
-        <property name="text">
-         <string>Off</string>
+         <string/>
         </property>
        </widget>
       </widget>
@@ -1382,39 +889,13 @@ p, li { white-space: pre-wrap; }
           <x>10</x>
           <y>20</y>
           <width>31</width>
-          <height>23</height>
+          <height>41</height>
          </rect>
         </property>
         <property name="text">
-         <string>On</string>
+         <string/>
         </property>
        </widget>
-       <widget class="QPushButton" name="ButtonOffLBRBright5">
-        <property name="geometry">
-         <rect>
-          <x>10</x>
-          <y>40</y>
-          <width>31</width>
-          <height>23</height>
-         </rect>
-        </property>
-        <property name="text">
-         <string>Off</string>
-        </property>
-       </widget>
-      </widget>
-      <widget class="QPushButton" name="ButtonUndoLBR">
-       <property name="geometry">
-        <rect>
-         <x>20</x>
-         <y>90</y>
-         <width>271</width>
-         <height>23</height>
-        </rect>
-       </property>
-       <property name="text">
-        <string>Back</string>
-       </property>
       </widget>
      </widget>
     </widget>
@@ -1422,34 +903,17 @@ p, li { white-space: pre-wrap; }
      <attribute name="title">
       <string>Street Light</string>
      </attribute>
-     <widget class="QTextEdit" name="OutputStreetLight">
-      <property name="geometry">
-       <rect>
-        <x>60</x>
-        <y>20</y>
-        <width>311</width>
-        <height>51</height>
-       </rect>
-      </property>
-      <property name="html">
-       <string>&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
-&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
-p, li { white-space: pre-wrap; }
-&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:'MS Shell Dlg 2'; font-size:8.25pt; font-weight:400; font-style:normal;&quot;&gt;
-&lt;p style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;br /&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
-      </property>
-     </widget>
      <widget class="QGroupBox" name="groupBox_109">
       <property name="geometry">
        <rect>
-        <x>60</x>
-        <y>80</y>
+        <x>50</x>
+        <y>10</y>
         <width>311</width>
-        <height>121</height>
+        <height>101</height>
        </rect>
       </property>
       <property name="title">
-       <string>Hallway Room</string>
+       <string>Garage</string>
       </property>
       <widget class="QGroupBox" name="groupBox_110">
        <property name="geometry">
@@ -1469,24 +933,11 @@ p, li { white-space: pre-wrap; }
           <x>10</x>
           <y>20</y>
           <width>31</width>
-          <height>23</height>
+          <height>41</height>
          </rect>
         </property>
         <property name="text">
-         <string>On</string>
-        </property>
-       </widget>
-       <widget class="QPushButton" name="ButtonOffSLHRBright1">
-        <property name="geometry">
-         <rect>
-          <x>10</x>
-          <y>40</y>
-          <width>31</width>
-          <height>23</height>
-         </rect>
-        </property>
-        <property name="text">
-         <string>Off</string>
+         <string/>
         </property>
        </widget>
       </widget>
@@ -1508,24 +959,11 @@ p, li { white-space: pre-wrap; }
           <x>10</x>
           <y>20</y>
           <width>31</width>
-          <height>23</height>
+          <height>41</height>
          </rect>
         </property>
         <property name="text">
-         <string>On</string>
-        </property>
-       </widget>
-       <widget class="QPushButton" name="ButtonOffSLHRBright2">
-        <property name="geometry">
-         <rect>
-          <x>10</x>
-          <y>40</y>
-          <width>31</width>
-          <height>23</height>
-         </rect>
-        </property>
-        <property name="text">
-         <string>Off</string>
+         <string/>
         </property>
        </widget>
       </widget>
@@ -1547,24 +985,11 @@ p, li { white-space: pre-wrap; }
           <x>10</x>
           <y>20</y>
           <width>31</width>
-          <height>23</height>
+          <height>41</height>
          </rect>
         </property>
         <property name="text">
-         <string>On</string>
-        </property>
-       </widget>
-       <widget class="QPushButton" name="ButtonOffSLHRBright3">
-        <property name="geometry">
-         <rect>
-          <x>10</x>
-          <y>40</y>
-          <width>31</width>
-          <height>23</height>
-         </rect>
-        </property>
-        <property name="text">
-         <string>Off</string>
+         <string/>
         </property>
        </widget>
       </widget>
@@ -1586,24 +1011,11 @@ p, li { white-space: pre-wrap; }
           <x>10</x>
           <y>20</y>
           <width>31</width>
-          <height>23</height>
+          <height>41</height>
          </rect>
         </property>
         <property name="text">
-         <string>On</string>
-        </property>
-       </widget>
-       <widget class="QPushButton" name="ButtonOffSLHRBright4">
-        <property name="geometry">
-         <rect>
-          <x>10</x>
-          <y>40</y>
-          <width>31</width>
-          <height>23</height>
-         </rect>
-        </property>
-        <property name="text">
-         <string>Off</string>
+         <string/>
         </property>
        </widget>
       </widget>
@@ -1625,52 +1037,26 @@ p, li { white-space: pre-wrap; }
           <x>10</x>
           <y>20</y>
           <width>31</width>
-          <height>23</height>
+          <height>41</height>
          </rect>
         </property>
         <property name="text">
-         <string>On</string>
+         <string/>
         </property>
        </widget>
-       <widget class="QPushButton" name="ButtonOffSLHRBright5">
-        <property name="geometry">
-         <rect>
-          <x>10</x>
-          <y>40</y>
-          <width>31</width>
-          <height>23</height>
-         </rect>
-        </property>
-        <property name="text">
-         <string>Off</string>
-        </property>
-       </widget>
-      </widget>
-      <widget class="QPushButton" name="ButtonUndoSLHR">
-       <property name="geometry">
-        <rect>
-         <x>20</x>
-         <y>90</y>
-         <width>271</width>
-         <height>23</height>
-        </rect>
-       </property>
-       <property name="text">
-        <string>Back</string>
-       </property>
       </widget>
      </widget>
      <widget class="QGroupBox" name="groupBox_115">
       <property name="geometry">
        <rect>
-        <x>60</x>
-        <y>210</y>
+        <x>50</x>
+        <y>110</y>
         <width>311</width>
-        <height>121</height>
+        <height>101</height>
        </rect>
       </property>
       <property name="title">
-       <string>Bed Room</string>
+       <string>Thresholds</string>
       </property>
       <widget class="QGroupBox" name="groupBox_116">
        <property name="geometry">
@@ -1690,24 +1076,11 @@ p, li { white-space: pre-wrap; }
           <x>10</x>
           <y>20</y>
           <width>31</width>
-          <height>23</height>
+          <height>41</height>
          </rect>
         </property>
         <property name="text">
-         <string>On</string>
-        </property>
-       </widget>
-       <widget class="QPushButton" name="ButtonOffSLBRBright1">
-        <property name="geometry">
-         <rect>
-          <x>10</x>
-          <y>40</y>
-          <width>31</width>
-          <height>23</height>
-         </rect>
-        </property>
-        <property name="text">
-         <string>Off</string>
+         <string/>
         </property>
        </widget>
       </widget>
@@ -1729,24 +1102,11 @@ p, li { white-space: pre-wrap; }
           <x>10</x>
           <y>20</y>
           <width>31</width>
-          <height>23</height>
+          <height>41</height>
          </rect>
         </property>
         <property name="text">
-         <string>On</string>
-        </property>
-       </widget>
-       <widget class="QPushButton" name="ButtonOffSLBRBright2">
-        <property name="geometry">
-         <rect>
-          <x>10</x>
-          <y>40</y>
-          <width>31</width>
-          <height>23</height>
-         </rect>
-        </property>
-        <property name="text">
-         <string>Off</string>
+         <string/>
         </property>
        </widget>
       </widget>
@@ -1768,24 +1128,11 @@ p, li { white-space: pre-wrap; }
           <x>10</x>
           <y>20</y>
           <width>31</width>
-          <height>23</height>
+          <height>41</height>
          </rect>
         </property>
         <property name="text">
-         <string>On</string>
-        </property>
-       </widget>
-       <widget class="QPushButton" name="ButtonOffSLBRBright3">
-        <property name="geometry">
-         <rect>
-          <x>10</x>
-          <y>40</y>
-          <width>31</width>
-          <height>23</height>
-         </rect>
-        </property>
-        <property name="text">
-         <string>Off</string>
+         <string/>
         </property>
        </widget>
       </widget>
@@ -1807,24 +1154,11 @@ p, li { white-space: pre-wrap; }
           <x>10</x>
           <y>20</y>
           <width>31</width>
-          <height>23</height>
+          <height>41</height>
          </rect>
         </property>
         <property name="text">
-         <string>On</string>
-        </property>
-       </widget>
-       <widget class="QPushButton" name="ButtonOffSLBRBright4">
-        <property name="geometry">
-         <rect>
-          <x>10</x>
-          <y>40</y>
-          <width>31</width>
-          <height>23</height>
-         </rect>
-        </property>
-        <property name="text">
-         <string>Off</string>
+         <string/>
         </property>
        </widget>
       </widget>
@@ -1846,39 +1180,13 @@ p, li { white-space: pre-wrap; }
           <x>10</x>
           <y>20</y>
           <width>31</width>
-          <height>23</height>
+          <height>41</height>
          </rect>
         </property>
         <property name="text">
-         <string>On</string>
+         <string/>
         </property>
        </widget>
-       <widget class="QPushButton" name="ButtonOffSLBRBright5">
-        <property name="geometry">
-         <rect>
-          <x>10</x>
-          <y>40</y>
-          <width>31</width>
-          <height>23</height>
-         </rect>
-        </property>
-        <property name="text">
-         <string>Off</string>
-        </property>
-       </widget>
-      </widget>
-      <widget class="QPushButton" name="ButtonUndoSLBR">
-       <property name="geometry">
-        <rect>
-         <x>20</x>
-         <y>90</y>
-         <width>271</width>
-         <height>23</height>
-        </rect>
-       </property>
-       <property name="text">
-        <string>Back</string>
-       </property>
       </widget>
      </widget>
     </widget>
@@ -1886,60 +1194,17 @@ p, li { white-space: pre-wrap; }
      <attribute name="title">
       <string>Garage Door</string>
      </attribute>
-     <widget class="QTextEdit" name="OutputGarageDoor">
-      <property name="geometry">
-       <rect>
-        <x>70</x>
-        <y>70</y>
-        <width>301</width>
-        <height>51</height>
-       </rect>
-      </property>
-      <property name="html">
-       <string>&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
-&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
-p, li { white-space: pre-wrap; }
-&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:'MS Shell Dlg 2'; font-size:8.25pt; font-weight:400; font-style:normal;&quot;&gt;
-&lt;p style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;br /&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
-      </property>
-     </widget>
      <widget class="QPushButton" name="ButtonOnGD">
       <property name="geometry">
        <rect>
-        <x>70</x>
-        <y>120</y>
+        <x>130</x>
+        <y>40</y>
         <width>151</width>
         <height>121</height>
        </rect>
       </property>
       <property name="text">
-       <string>On</string>
-      </property>
-     </widget>
-     <widget class="QPushButton" name="ButtonOffGD">
-      <property name="geometry">
-       <rect>
-        <x>220</x>
-        <y>120</y>
-        <width>151</width>
-        <height>121</height>
-       </rect>
-      </property>
-      <property name="text">
-       <string>Off</string>
-      </property>
-     </widget>
-     <widget class="QPushButton" name="ButtonUndoGD">
-      <property name="geometry">
-       <rect>
-        <x>70</x>
-        <y>240</y>
-        <width>301</width>
-        <height>41</height>
-       </rect>
-      </property>
-      <property name="text">
-       <string>Back</string>
+       <string>OPEN/CLOSE</string>
       </property>
      </widget>
     </widget>
@@ -1947,63 +1212,59 @@ p, li { white-space: pre-wrap; }
      <attribute name="title">
       <string>House Door</string>
      </attribute>
-     <widget class="QTextEdit" name="OutputHouseDoor">
-      <property name="geometry">
-       <rect>
-        <x>70</x>
-        <y>70</y>
-        <width>301</width>
-        <height>51</height>
-       </rect>
-      </property>
-      <property name="html">
-       <string>&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
-&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
-p, li { white-space: pre-wrap; }
-&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:'MS Shell Dlg 2'; font-size:8.25pt; font-weight:400; font-style:normal;&quot;&gt;
-&lt;p style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;br /&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
-      </property>
-     </widget>
      <widget class="QPushButton" name="ButtonOnHD">
       <property name="geometry">
        <rect>
-        <x>70</x>
-        <y>120</y>
+        <x>130</x>
+        <y>40</y>
         <width>151</width>
         <height>121</height>
        </rect>
       </property>
       <property name="text">
-       <string>On</string>
-      </property>
-     </widget>
-     <widget class="QPushButton" name="ButtonOffHD">
-      <property name="geometry">
-       <rect>
-        <x>220</x>
-        <y>120</y>
-        <width>151</width>
-        <height>121</height>
-       </rect>
-      </property>
-      <property name="text">
-       <string>Off</string>
-      </property>
-     </widget>
-     <widget class="QPushButton" name="ButtonUndoHD">
-      <property name="geometry">
-       <rect>
-        <x>70</x>
-        <y>240</y>
-        <width>301</width>
-        <height>41</height>
-       </rect>
-      </property>
-      <property name="text">
-       <string>Back</string>
+       <string>OPEN/CLOSE</string>
       </property>
      </widget>
     </widget>
+   </widget>
+   <widget class="QTextEdit" name="Output">
+    <property name="geometry">
+     <rect>
+      <x>50</x>
+      <y>20</y>
+      <width>311</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Lucida Console</family>
+      <pointsize>11</pointsize>
+     </font>
+    </property>
+    <property name="markdown">
+     <string/>
+    </property>
+    <property name="html">
+     <string>&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
+&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
+p, li { white-space: pre-wrap; }
+&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:'Lucida Console'; font-size:11pt; font-weight:400; font-style:normal;&quot;&gt;
+&lt;p style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-size:14pt;&quot;&gt;&lt;br /&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="ButtonUndo">
+    <property name="geometry">
+     <rect>
+      <x>50</x>
+      <y>330</y>
+      <width>311</width>
+      <height>23</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Back</string>
+    </property>
    </widget>
   </widget>
  </widget>

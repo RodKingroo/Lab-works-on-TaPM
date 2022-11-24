@@ -44,8 +44,8 @@ class CeilingFanStageOneCommand(Command):
         
     def execute(self):
         self.prevSpeed = self.ceilingFan.getState()
-        self.ceilingFan.stage_1()
         self.ceilingFan.on()
+        self.ceilingFan.stage_1()
         
     def undo(self):
         self.ceilingFan.off()
@@ -62,7 +62,8 @@ class CeilingFanStageTwoCommand(Command):
         
     def execute(self):
         self.prevSpeed = self.ceilingFan.getState()
-        self.ceilingFan.stage_2()
+        self.ceilingFan.on()
+        self.ceilingFan.stage_2()    
         
     def undo(self):
         self.ceilingFan.off()
@@ -79,6 +80,7 @@ class CeilingFanStageThreeCommand(Command):
         
     def execute(self):
         self.prevSpeed = self.ceilingFan.getState()
+        self.ceilingFan.on()
         self.ceilingFan.stage_3()
         
     def undo(self):
@@ -96,6 +98,7 @@ class CeilingFanStageFourCommand(Command):
         
     def execute(self):
         self.prevSpeed = self.ceilingFan.getState()
+        self.ceilingFan.on()
         self.ceilingFan.stage_4()
         
     def undo(self):
@@ -113,6 +116,7 @@ class CeilingFanStageFiveCommand(Command):
     
     def execute(self):
         self.prevSpeed = self.ceilingFan.getState()
+        self.ceilingFan.on()
         self.ceilingFan.stage_5()
         
     def undo(self):

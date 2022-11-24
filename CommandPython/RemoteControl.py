@@ -8,7 +8,7 @@ class RemoteControl:
         self.undoCommand = NoCommand()
         self.onCommands = []
         self.offCommands = []
-        for i in range(22):
+        for i in range(47):
             self.onCommands.append(self.undoCommand)
             self.offCommands.append(self.undoCommand)
             

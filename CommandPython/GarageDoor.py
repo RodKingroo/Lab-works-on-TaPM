@@ -1,11 +1,14 @@
 # Copyright (c) 2022 RodKingroo
 
 class GarageDoor:
+    def __init__(self, ui):
+        self.ui = ui
+    
     def open(self):
-        print('Garage door open')
+        self.ui.set_text_output('Garage door open')
    
     def close(self):
-        print('Garage door close')
+        self.ui.set_text_output('Garage door close')
         
         
     

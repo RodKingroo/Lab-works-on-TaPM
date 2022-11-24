@@ -1,7 +1,7 @@
 # Copyright (c) 2022 RodKingroo
 
 class Stereo:
-    def __init__(self):
+    def __init__(self, ui):
         self.UNKNOWN = 0
         self.CASSETTE = 1
         self.CD = 2
@@ -10,41 +10,42 @@ class Stereo:
         self.CLOUDMUSIC = 5
         self.volume = 0
         self.state = self.UNKNOWN
+        self.ui = ui
         
     def on(self):
-        print('Stereo On')
+        self.ui.set_text_output('Stereo On')
         
     def off(self):
-        print('Stereo Off')
+        self.ui.set_text_output('Stereo Off')
     
     #setted cassete
     def setCASSETTE(self):
         self.state = self.CASSETTE
-        print('Cassette Rec selected')
+        self.ui.set_text_output('Cassette Rec selected')
     
     #setted CD
     def setCD(self):
         self.state = self.CD
-        print('CD device selected')
+        self.ui.set_text_output('CD device selected')
     
     #setted DVD
     def setDVD(self):
         self.state = self.DVD
-        print('DVD device selected')
+        self.ui.set_text_output('DVD device selected')
         
     #setted Radio Example: play Radio Station
     def setRADIO(self):
         self.state = self.RADIO
-        print('Radio selected')
+        self.ui.set_text_output('Radio selected')
         
     # setted cloud music Example: Spotify, Yandex Music
     def setCLOUDMUSIC(self):
         self.state = self.CLOUDMUSIC
-        print('Voice Assist play music')
+        self.ui.set_text_output('Voice Assist play music')
     
     def setVolume(self, volume):
         self.volume = volume
-        print("Volume level:", self.volume)
+        self.ui.set_text_output("Volume level: " + str(self.volume))
         
     def getVolume(self):
         return self.volume

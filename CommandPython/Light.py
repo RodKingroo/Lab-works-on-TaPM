@@ -1,7 +1,7 @@
 # Copyright (c) 2022 RodKingroo
 
 class Light:
-    def __init__(self):
+    def __init__(self, ui):
         self.OFF = 0
         self.STAGE_ONE = 20
         self.STAGE_TWO = 40
@@ -9,38 +9,39 @@ class Light:
         self.STAGE_FOUR = 80
         self.STAGE_FIVE = 100
         self.bright = self.OFF
+        self.ui = ui
     
     def on(self):
-        print('Light on')
+        self.ui.set_text_output('Light on')
     
     def off(self):
-        print('Light off')
+        self.ui.set_text_output('Light off')
         
     
     #setted Bright: Stage 1
     def stage_1(self):
         self.bright = self.STAGE_ONE
-        print('Bright light:', self.bright)
+        self.ui.set_text_output('Bright light: ' + str(self.bright))
      
     #setted Bright: Stage 2   
     def stage_2(self):
         self.bright = self.STAGE_TWO
-        print('Bright light:', self.bright)
+        self.ui.set_text_output('Bright light: ' + str(self.bright))
         
     #setted Bright: Stage 3   
     def stage_3(self):
         self.bright = self.STAGE_THREE
-        print('Bright light:', self.bright)
+        self.ui.set_text_output('Bright light: ' + str(self.bright))
         
     #setted Bright: Stage 4   
     def stage_4(self):
         self.bright = self.STAGE_FOUR
-        print('Bright light:', self.bright)
+        self.ui.set_text_output('Bright light: ' + str(self.bright))
         
     #setted Bright: Stage 5   
     def stage_5(self):
         self.bright = self.STAGE_FIVE
-        print('Bright light:', self.bright)
+        self.ui.set_text_output('Bright light: ' + str(self.bright))
         
     def getState(self):
         return self.bright
