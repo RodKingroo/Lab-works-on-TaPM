@@ -1,34 +1,32 @@
 #pragma once
 using namespace std;
 
-static enum class RoomState
-{
-	UNKNOWN,
-	HALLWAY,
-	LIVINROOM,
-	BEDROOM,
-	KITCHEN,
-	BATHROOM,
-	STOREROOM,
-	GARAGE,
-};
-
 class Light
 {
-	RoomState state = RoomState::UNKNOWN;
+	int state = OFF;
 public:
 	void on();
 	void off();
 
-	void getHallway();
-	void getLivinRoom();
-	void getBedRoom();
-	void getKitchen();
-	void getBathRoom();
-	void getStoreRoom();
-	void getGarage();
+	void state_1();
+	void state_2();
+	void state_3();
+	void state_4();
+	void state_5();
 
-	RoomState getRoom();
+	const int getState();
+
+
+	static enum
+	{
+		OFF = 0,
+		STAGE_ONE = 20,
+		STAGE_TWO = 40,
+		STAGE_THREE = 60,
+		STAGE_FOUR = 80,
+		STAGE_FIVE = 100,
+
+	};
 
 };
 

@@ -1,0 +1,33 @@
+{
+    "tasks": [
+        {
+            "type": "cppbuild",
+            "label": "C/C++: cl.exe compil",
+            "command": "cl.exe",
+            "args": [
+                "/Zi",
+                "/EHsc",
+                "/nologo",
+                "/Fd${fileDirname}\\DEBUG\\",
+                "/Fo${fileDirname}\\DEBUG\\",
+                "${fileDirname}\\**.cpp",
+                "${fileDirname}\\**.h \\LIB\\{fileBasenameNoExtension}.obj",
+                "SET _CL_= \\DEBUG\\**.obj",
+                "/Fe${fileDirname}\\DEBUG\\${fileBasenameNoExtension}.exe",
+                
+            ],
+            "options": {
+                "cwd": "${fileDirname}"
+            },
+            "problemMatcher": [
+                "$msCompile"
+            ],
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            },
+            "detail": "Задача создана отладчиком."
+        }
+    ],
+    "version": "2.0.0"
+}

@@ -1,7 +1,7 @@
 #pragma once
 using namespace std;
 
-class GarageDoor
+class HouseDoor
 {
     void Open();
     void Close();
