@@ -1,17 +1,8 @@
 #include "CeilingFan.h"
 
 
-void CeilingFan::on()
-{
-	cout << "Ceiling Fan On" << endl;
-
-}
-
-void CeilingFan::off()
-{
-	cout << "Ceiling Fan Off" << endl;
-
-}
+void CeilingFan::on() { cout << "Ceiling Fan On " << endl; }
+void CeilingFan::off() { cout << "Ceiling Fan Off " << endl; }
 
 
 void CeilingFan::state_1()
@@ -46,4 +37,10 @@ void CeilingFan::state_5()
 	speed = STATE_FIVE;
 	cout << "Ceiling Fan Speed: " << speed << endl;
 	
+}
+
+const int CeilingFan::getState()
+{
+    return speed;
+
 }

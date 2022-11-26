@@ -1,33 +1,35 @@
 #include "RemoteControl.h"
-#include "Light.h"
-#include "Stereo.h"
+
 #include "CeilingFan.h"
-#include "LightCommand.h"
-#include "StereoCommand.h"
-#include "CeilingFanCommands.h"
+#include "CeilingFanCommand.h"
 
 /* Command pattern CLIENT */
-int main() {
-	/* Command pattern INVOKER */
-	std::unique_ptr<RemoteControl> remote = std::make_unique<RemoteControl>();
-	
-	/* Command pattern RECEIVERS */
-	std::shared_ptr<Light> livingRoomLight = std::make_shared<Light>();
-	std::shared_ptr<CeilingFan> bedRoomCeilingFan = std::make_shared<CeilingFan>();
-	std::shared_ptr<Stereo> stereo = std::make_shared<Stereo>();
+int main()
+{
+    /* Command pattern INVOKER */
+    unique_ptr<RemoteControl> remote = make_unique<RemoteControl>();
 
-	/* Command pattern COMMANDS */
-	std::shared_ptr<StereoOnWithCDCommand> stereoCD = std::make_shared<StereoOnWithCDCommand>(stereo);
-	std::shared_ptr<StereoOffCommand> stereoOff = std::make_shared<StereoOffCommand>(stereo);
+    /* Command pattern RECEIVERS */
+    shared_ptr<CeilingFan> _ceilingFan = make_shared<CeilingFan>();
 
-	/* Setting command to invocer */
-	remote->setCommand(3, stereoCD, stereoOff);
+    /* Command pattern COMMANDS */
+    shared_ptr<CeilingFanOneStateCommand> _commandCeilingFanStateOne = make_shared<CeilingFanOneStateCommand>(_ceilingFan);
+    shared_ptr<CeilingFanTwoStateCommand> _commandCeilingFanStateTwo = make_shared<CeilingFanTwoStateCommand>(_ceilingFan);
+    shared_ptr<CeilingFanThreeStateCommand> _commandCeilingFanStateThree = make_shared<CeilingFanThreeStateCommand>(_ceilingFan);
+    shared_ptr<CeilingFanFourStateCommand> _commandCeilingFanStateFour = make_shared<CeilingFanFourStateCommand>(_ceilingFan);
+    shared_ptr<CeilingFanFiveStateCommand> _commandCeilingFanStateFive = make_shared<CeilingFanFiveStateCommand>(_ceilingFan);
+    shared_ptr<CeilingFanOffCommand> _commandCeilingFanOff = make_shared<CeilingFanOffCommand>(_ceilingFan);
 
-	/* Execitomg commands */
-	remote->onButtonPress(1);
-	remote->offButtonPress(1);
-	remote->undoButtonPress();
+    /* Setting command to invocer */
+    remote->setCommand(1, _commandCeilingFanStateOne, _commandCeilingFanOff);
+    remote->setCommand(2, _commandCeilingFanStateTwo, _commandCeilingFanOff);
+    remote->setCommand(3, _commandCeilingFanStateThree, _commandCeilingFanOff);
+    remote->setCommand(4, _commandCeilingFanStateFour, _commandCeilingFanOff);
+    remote->setCommand(5, _commandCeilingFanStateFive, _commandCeilingFanOff);
 
-	return 0;
+    /* Execitomg commands */
+    remote->onButtonPress(5);
+    remote->offButtonPress(5);
+    remote->undoButtonPress();
 
 }

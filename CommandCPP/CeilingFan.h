@@ -18,12 +18,13 @@ public:
 	void state_5();
 	const int getState();
 
-	static enum {
-		OFF = 0,
-		STATE_ONE = 1,
-		STATE_TWO = 2,
-		STATE_THREE = 4,
-		STATE_FOUR = 8,
-		STATE_FIVE = 16,
-	};
+    static enum{
+        OFF = 0,
+        STATE_ONE = 1,
+        STATE_TWO = 2,
+        STATE_THREE = 4,
+        STATE_FOUR = 8,
+        STATE_FIVE = 16,
+    };
+
 };
