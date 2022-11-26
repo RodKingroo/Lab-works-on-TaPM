@@ -1,3 +1,4 @@
+/* Copyright (c) 2022 RodKingroo */
 #include "CeilingFanCommand.h"
 
 void setUndo(shared_ptr<CeilingFan> ceilingFan, int prevSpeed)

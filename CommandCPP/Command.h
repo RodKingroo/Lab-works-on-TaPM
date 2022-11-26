@@ -1,3 +1,4 @@
+/* Copyright (c) 2022 RodKingroo */
 #pragma once
 class Command
 {

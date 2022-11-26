@@ -1,3 +1,4 @@
+/* Copyright (c) 2022 RodKingroo */
 #include "CeilingFan.h"
 
 
@@ -39,8 +40,4 @@ void CeilingFan::state_5()
 	
 }
 
-const int CeilingFan::getState()
-{
-    return speed;
-
-}
+const int CeilingFan::getState() { return speed; }

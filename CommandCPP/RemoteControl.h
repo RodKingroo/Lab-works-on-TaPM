@@ -1,3 +1,4 @@
+/* Copyright (c) 2022 RodKingroo */
 #pragma once
 #include <memory>
 #include <vector>
