@@ -7,6 +7,7 @@ void setUndo(shared_ptr<Light> light, int prevBright)
     {
         case Light::OFF:
             light->off();
+            break;
         case Light::STATE_ONE:
             light->state_1();
             break;
