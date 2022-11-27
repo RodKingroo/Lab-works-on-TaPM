@@ -1,4 +1,5 @@
 /* Copyright (c) 2022 RodKingroo */
+#pragma once
 #include <iostream>
 #include "Command.h"
 #include "Light.h"

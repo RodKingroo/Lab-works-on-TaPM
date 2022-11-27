@@ -10,6 +10,15 @@
 #include "Stereo.h"
 #include "StereoCommand.h"
 
+#include "StreetLight.h"
+#include "StreetLightCommand.h"
+
+#include "GarageDoor.h"
+#include "GarageDoorCommand.h"
+
+#include "HouseDoor.h"
+#include "HouseDoorCommand.h"
+
 /* Command pattern CLIENT */
 int main()
 {
@@ -20,6 +29,9 @@ int main()
     shared_ptr<CeilingFan> _ceilingFan = make_shared<CeilingFan>();
     shared_ptr<Light> _light = make_shared<Light>();
     shared_ptr<Stereo> _stereo = make_shared<Stereo>();
+    shared_ptr<StreetLight> _streetLight = make_shared<StreetLight>();
+    shared_ptr<GarageDoor> _garageDoor = make_shared<GarageDoor>();
+    shared_ptr<HouseDoor> _houseDoor = make_shared<HouseDoor>();
 
     /* Command pattern COMMANDS */
     shared_ptr<CeilingFanOneStateCommand> _commandCeilingFanStateOne = make_shared<CeilingFanOneStateCommand>(_ceilingFan);
@@ -43,6 +55,20 @@ int main()
     shared_ptr<StereoOnCloudCommand> _commandStereoOnCloud = make_shared<StereoOnCloudCommand>(_stereo);
     shared_ptr<StereoOffCommand> _commandStereoOff = make_shared<StereoOffCommand>(_stereo);
 
+    shared_ptr<StreetLightOnStateOneCommand> _commandStreetLightStateOne = make_shared<StreetLightOnStateOneCommand>(_streetLight);
+    shared_ptr<StreetLightOnStateTwoCommand> _commandStreetLightStateTwo = make_shared<StreetLightOnStateTwoCommand>(_streetLight);
+    shared_ptr<StreetLightOnStateThreeCommand> _commandStreetLightStateThree = make_shared<StreetLightOnStateThreeCommand>(_streetLight);
+    shared_ptr<StreetLightOnStateFourCommand> _commandStreetLightStateFour = make_shared<StreetLightOnStateFourCommand>(_streetLight);
+    shared_ptr<StreetLightOnStateFiveCommand> _commandStreetLightStateFive = make_shared<StreetLightOnStateFiveCommand>(_streetLight);
+    shared_ptr<StreetLightOffCommand> _commandStreetLightOff = make_shared<StreetLightOffCommand>(_streetLight);
+
+    shared_ptr<GarageDoorOpenCommand> _commandGarageDoorOpen = make_shared<GarageDoorOpenCommand>(_garageDoor);
+    shared_ptr<GarageDoorCloseCommand> _commandGarageDoorClose = make_shared<GarageDoorCloseCommand>(_garageDoor);
+
+    shared_ptr<HouseDoorOpenCommand> _commandHouseDoorOpen = make_shared<HouseDoorOpenCommand>(_houseDoor);
+    shared_ptr<HouseDoorCloseCommand> _commandHouseDoorClose = make_shared<HouseDoorCloseCommand>(_houseDoor);
+
+
     /* Setting command to invocer */
     remote->setCommand(1, _commandCeilingFanStateOne, _commandCeilingFanOff);
     remote->setCommand(2, _commandCeilingFanStateTwo, _commandCeilingFanOff);
@@ -62,9 +88,18 @@ int main()
     remote->setCommand(14, _commandStereoOnRadio, _commandStereoOff);
     remote->setCommand(15, _commandStereoOnCloud, _commandStereoOff);
 
+    remote->setCommand(16, _commandStreetLightStateOne, _commandStreetLightOff);
+    remote->setCommand(17, _commandStreetLightStateTwo, _commandStreetLightOff);
+    remote->setCommand(18, _commandStreetLightStateThree, _commandStreetLightOff);
+    remote->setCommand(19, _commandStreetLightStateFour, _commandStreetLightOff);
+    remote->setCommand(20, _commandStreetLightStateFive, _commandStreetLightOff);
+
+    remote->setCommand(21, _commandGarageDoorOpen, _commandGarageDoorClose);
+    remote->setCommand(22, _commandHouseDoorOpen, _commandHouseDoorClose);
+
     /* Execitomg commands */
-    remote->onButtonPress(15);
-    remote->offButtonPress(15);
+    remote->onButtonPress(22);
+    remote->offButtonPress(22);
     remote->undoButtonPress();
 
 }
